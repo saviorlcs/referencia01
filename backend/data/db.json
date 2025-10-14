@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "demo",
+      "name": "Convidado",
+      "nick_tag": "guest#0001",
+      "level": 1,
+      "coins": 200,
+      "total_minutes": 0,
+      "inventory": [],
+      "selected_alarm": "bell",
+      "study_subjects": [],
+      "timer_settings": {
+        "mode": "segments",
+        "ratioStudy": 5,
+        "ratioBreak": 1
+      },
+      "block_prefs": {
+        "studyBlockMin": 50,
+        "breakBlockMin": 10
+      },
+      "daily_goal": 120,
+      "weekly_goal": 900,
+      "keep_awake": true
+    }
+  ],
+  "quests": [
+    {
+      "id": "q1",
+      "title": "Estude 60 min",
+      "description": "Faça 60 minutos de estudo nesta semana.",
+      "target": 60,
+      "progress": 0,
+      "xp_reward": 100,
+      "coins_reward": 15
+    },
+    {
+      "id": "q2",
+      "title": "Estude 120 min",
+      "description": "Complete 120 minutos de estudo.",
+      "target": 120,
+      "progress": 0,
+      "xp_reward": 200,
+      "coins_reward": 25
+    },
+    {
+      "id": "q3",
+      "title": "Estude 300 min",
+      "description": "Maratona de 300 minutos!",
+      "target": 300,
+      "progress": 0,
+      "xp_reward": 500,
+      "coins_reward": 60
+    }
+  ],
+  "shop": {
+    "items": [
+      {
+        "id": "theme_ocean",
+        "name": "Tema Oceano",
+        "price": 0,
+        "type": "theme"
+      },
+      {
+        "id": "theme_neon",
+        "name": "Tema Neon",
+        "price": 50,
+        "type": "theme"
+      },
+      {
+        "id": "ringtone_piano",
+        "name": "Toque Piano",
+        "price": 30,
+        "type": "ringtone"
+      }
+    ]
+  }
+}

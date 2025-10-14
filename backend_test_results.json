@@ -1,0 +1,1157 @@
+{
+  "total_tests": 12,
+  "passed_tests": 11,
+  "failed_tests": 1,
+  "success_rate": "91.7%",
+  "test_results": [
+    {
+      "test_name": "Health Check",
+      "success": true,
+      "details": "Status: 200",
+      "response_data": {
+        "ok": true
+      },
+      "timestamp": "2025-10-14T14:24:36.432451"
+    },
+    {
+      "test_name": "Create User",
+      "success": true,
+      "details": "Status: 200",
+      "response_data": {
+        "id": "04eb5538-5407-4ee3-befb-395cc366ac0a",
+        "email": "test_user_142436@test.com",
+        "name": "Test User Cosmetics",
+        "nick_tag": "testuser#1535",
+        "nick_tag_last_changed": null,
+        "photo": null,
+        "xp": 0,
+        "level": 1,
+        "coins": 0,
+        "total_study_time": 0,
+        "owned_cosmetics": [],
+        "active_cosmetics": {},
+        "study_subjects": [],
+        "study_time_minutes": 50,
+        "break_time_minutes": 10,
+        "selected_alarm": "bell",
+        "notification_volume": 0.5,
+        "completed_cycles": 0,
+        "current_theme": "dark",
+        "daily_goal_minutes": 120,
+        "weekly_goal_minutes": 600,
+        "created_at": "2025-10-14T14:24:36.476299Z"
+      },
+      "timestamp": "2025-10-14T14:24:36.484955"
+    },
+    {
+      "test_name": "User Creation Setup",
+      "success": true,
+      "details": "User ID: 04eb5538-5407-4ee3-befb-395cc366ac0a",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.485644"
+    },
+    {
+      "test_name": "Get Current User",
+      "success": true,
+      "details": "Status: 200",
+      "response_data": {
+        "id": "04eb5538-5407-4ee3-befb-395cc366ac0a",
+        "email": "test_user_142436@test.com",
+        "name": "Test User Cosmetics",
+        "nick_tag": "testuser#1535",
+        "nick_tag_last_changed": null,
+        "photo": null,
+        "xp": 0,
+        "level": 1,
+        "coins": 0,
+        "total_study_time": 0,
+        "owned_cosmetics": [],
+        "active_cosmetics": {},
+        "study_subjects": [],
+        "study_time_minutes": 50,
+        "break_time_minutes": 10,
+        "selected_alarm": "bell",
+        "notification_volume": 0.5,
+        "completed_cycles": 0,
+        "current_theme": "dark",
+        "daily_goal_minutes": 120,
+        "weekly_goal_minutes": 600,
+        "created_at": "2025-10-14T14:24:36.476299Z"
+      },
+      "timestamp": "2025-10-14T14:24:36.563524"
+    },
+    {
+      "test_name": "User Data Structure",
+      "success": true,
+      "details": "Coins: 0, Level: 1, XP: 0",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.564198"
+    },
+    {
+      "test_name": "Get Cosmetics List",
+      "success": true,
+      "details": "Status: 200",
+      "response_data": [
+        {
+          "id": "badge-star",
+          "name": "Selo Estrela",
+          "type": "badge",
+          "price": 0,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-star\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-star { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-star  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge-star { transform-origin: 60px 60px; animation: pulse_badge-star 2s infinite, glow_badge-star 2s infinite; }\n      .t_badge-star { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-star\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-star)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-star\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-emerald",
+          "name": "Selo Esmeralda",
+          "type": "badge",
+          "price": 20,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-emerald\">\n      <stop offset=\"0%\" stop-color=\"#06FFA5\"/>\n      <stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-emerald { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-emerald  { 0%,100% { filter: drop-shadow(0 0 4px #06FFA5); } 50% { filter: drop-shadow(0 0 12px #4ECDC4); } }\n      .p_badge-emerald { transform-origin: 60px 60px; animation: pulse_badge-emerald 2s infinite, glow_badge-emerald 2s infinite; }\n      .t_badge-emerald { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-emerald\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-emerald)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-emerald\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-bronze",
+          "name": "Selo Bronze",
+          "type": "badge",
+          "price": 36,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-bronze\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/>\n      <stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-bronze { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-bronze  { 0%,100% { filter: drop-shadow(0 0 4px #00D4FF); } 50% { filter: drop-shadow(0 0 12px #06FFA5); } }\n      .p_badge-bronze { transform-origin: 60px 60px; animation: pulse_badge-bronze 2s infinite, glow_badge-bronze 2s infinite; }\n      .t_badge-bronze { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-bronze\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-bronze)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-bronze\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-silver",
+          "name": "Selo Prata",
+          "type": "badge",
+          "price": 64,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-silver\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/>\n      <stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-silver { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-silver  { 0%,100% { filter: drop-shadow(0 0 4px #00D4FF); } 50% { filter: drop-shadow(0 0 12px #06FFA5); } }\n      .p_badge-silver { transform-origin: 60px 60px; animation: pulse_badge-silver 2s infinite, glow_badge-silver 2s infinite; }\n      .t_badge-silver { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-silver\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-silver)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-silver\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-gold",
+          "name": "Selo Ouro",
+          "type": "badge",
+          "price": 116,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-gold\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-gold { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-gold  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge-gold { transform-origin: 60px 60px; animation: pulse_badge-gold 2s infinite, glow_badge-gold 2s infinite; }\n      .t_badge-gold { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-gold\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-gold)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-gold\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-ruby",
+          "name": "Selo Rubi",
+          "type": "badge",
+          "price": 207,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-ruby\">\n      <stop offset=\"0%\" stop-color=\"#06FFA5\"/>\n      <stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-ruby { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-ruby  { 0%,100% { filter: drop-shadow(0 0 4px #06FFA5); } 50% { filter: drop-shadow(0 0 12px #4ECDC4); } }\n      .p_badge-ruby { transform-origin: 60px 60px; animation: pulse_badge-ruby 2s infinite, glow_badge-ruby 2s infinite; }\n      .t_badge-ruby { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-ruby\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-ruby)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-ruby\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-sapphire",
+          "name": "Selo Safira",
+          "type": "badge",
+          "price": 372,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-sapphire\">\n      <stop offset=\"0%\" stop-color=\"#06FFA5\"/>\n      <stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-sapphire { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-sapphire  { 0%,100% { filter: drop-shadow(0 0 4px #06FFA5); } 50% { filter: drop-shadow(0 0 12px #4ECDC4); } }\n      .p_badge-sapphire { transform-origin: 60px 60px; animation: pulse_badge-sapphire 2s infinite, glow_badge-sapphire 2s infinite; }\n      .t_badge-sapphire { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-sapphire\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-sapphire)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-sapphire\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-onyx",
+          "name": "Selo \u00d4nix",
+          "type": "badge",
+          "price": 668,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-onyx\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-onyx { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-onyx  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge-onyx { transform-origin: 60px 60px; animation: pulse_badge-onyx 2s infinite, glow_badge-onyx 2s infinite; }\n      .t_badge-onyx { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-onyx\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-onyx)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-onyx\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-diamond",
+          "name": "Selo Diamante",
+          "type": "badge",
+          "price": 1198,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-diamond\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-diamond { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-diamond  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge-diamond { transform-origin: 60px 60px; animation: pulse_badge-diamond 2s infinite, glow_badge-diamond 2s infinite; }\n      .t_badge-diamond { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-diamond\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-diamond)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-diamond\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "badge-platinum",
+          "name": "Selo Platina",
+          "type": "badge",
+          "price": 2150,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-platinum\">\n      <stop offset=\"0%\" stop-color=\"#FF6B6B\"/>\n      <stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-platinum { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-platinum  { 0%,100% { filter: drop-shadow(0 0 4px #FF6B6B); } 50% { filter: drop-shadow(0 0 12px #FFD23F); } }\n      .p_badge-platinum { transform-origin: 60px 60px; animation: pulse_badge-platinum 2s infinite, glow_badge-platinum 2s infinite; }\n      .t_badge-platinum { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-platinum\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-platinum)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-platinum\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-titanium",
+          "name": "Selo Tit\u00e2nio",
+          "type": "badge",
+          "price": 3858,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-titanium\">\n      <stop offset=\"0%\" stop-color=\"#06FFA5\"/>\n      <stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-titanium { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-titanium  { 0%,100% { filter: drop-shadow(0 0 4px #06FFA5); } 50% { filter: drop-shadow(0 0 12px #4ECDC4); } }\n      .p_badge-titanium { transform-origin: 60px 60px; animation: pulse_badge-titanium 2s infinite, glow_badge-titanium 2s infinite; }\n      .t_badge-titanium { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-titanium\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-titanium)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-titanium\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-master",
+          "name": "Selo Mestre",
+          "type": "badge",
+          "price": 6923,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-master\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-master { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-master  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge-master { transform-origin: 60px 60px; animation: pulse_badge-master 2s infinite, glow_badge-master 2s infinite; }\n      .t_badge-master { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-master\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-master)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-master\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-legend",
+          "name": "Selo Lend\u00e1rio",
+          "type": "badge",
+          "price": 12423,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-legend\">\n      <stop offset=\"0%\" stop-color=\"#9D4EDD\"/>\n      <stop offset=\"100%\" stop-color=\"#00D4FF\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-legend { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-legend  { 0%,100% { filter: drop-shadow(0 0 4px #9D4EDD); } 50% { filter: drop-shadow(0 0 12px #00D4FF); } }\n      .p_badge-legend { transform-origin: 60px 60px; animation: pulse_badge-legend 2s infinite, glow_badge-legend 2s infinite; }\n      .t_badge-legend { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-legend\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-legend)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-legend\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "badge-grand",
+          "name": "Selo Gr\u00e3o-Mestre",
+          "type": "badge",
+          "price": 22291,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-grand\">\n      <stop offset=\"0%\" stop-color=\"#FF6B6B\"/>\n      <stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-grand { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-grand  { 0%,100% { filter: drop-shadow(0 0 4px #FF6B6B); } 50% { filter: drop-shadow(0 0 12px #FFD23F); } }\n      .p_badge-grand { transform-origin: 60px 60px; animation: pulse_badge-grand 2s infinite, glow_badge-grand 2s infinite; }\n      .t_badge-grand { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-grand\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-grand)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-grand\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "badge-immortal",
+          "name": "Selo Imortal",
+          "type": "badge",
+          "price": 40000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-immortal\">\n      <stop offset=\"0%\" stop-color=\"#FF6B6B\"/>\n      <stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-immortal { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-immortal  { 0%,100% { filter: drop-shadow(0 0 4px #FF6B6B); } 50% { filter: drop-shadow(0 0 12px #FFD23F); } }\n      .p_badge-immortal { transform-origin: 60px 60px; animation: pulse_badge-immortal 2s infinite, glow_badge-immortal 2s infinite; }\n      .t_badge-immortal { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-immortal\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-immortal)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-immortal\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "badge-celestial",
+          "name": "Selo Celestial",
+          "type": "badge",
+          "price": 50000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge-celestial\">\n      <stop offset=\"0%\" stop-color=\"#06FFA5\"/>\n      <stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge-celestial { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge-celestial  { 0%,100% { filter: drop-shadow(0 0 4px #06FFA5); } 50% { filter: drop-shadow(0 0 12px #4ECDC4); } }\n      .p_badge-celestial { transform-origin: 60px 60px; animation: pulse_badge-celestial 2s infinite, glow_badge-celestial 2s infinite; }\n      .t_badge-celestial { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge-celestial\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge-celestial)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge-celestial\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "border-neon",
+          "name": "Borda Neon",
+          "type": "border",
+          "price": 80,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-neon\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-neon { to { stroke-dashoffset: -400; } }\n      .r_border-neon {\n        stroke: url(#gb_border-neon); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-neon 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-neon\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-gold",
+          "name": "Borda Dourada",
+          "type": "border",
+          "price": 110,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-gold\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-gold { to { stroke-dashoffset: -400; } }\n      .r_border-gold {\n        stroke: url(#gb_border-gold); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-gold 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-gold\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-emerald",
+          "name": "Borda Esmeralda",
+          "type": "border",
+          "price": 152,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-emerald\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-emerald { to { stroke-dashoffset: -400; } }\n      .r_border-emerald {\n        stroke: url(#gb_border-emerald); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-emerald 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-emerald\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-purple",
+          "name": "Borda Violeta",
+          "type": "border",
+          "price": 210,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-purple\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#4ECDC4\"/><stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-purple { to { stroke-dashoffset: -400; } }\n      .r_border-purple {\n        stroke: url(#gb_border-purple); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-purple 5s linear infinite;\n        filter: drop-shadow(0 0 6px #4ECDC466);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-purple\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-prism",
+          "name": "Borda Prisma",
+          "type": "border",
+          "price": 290,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-prism\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-prism { to { stroke-dashoffset: -400; } }\n      .r_border-prism {\n        stroke: url(#gb_border-prism); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-prism 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-prism\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-platina",
+          "name": "Borda Platina",
+          "type": "border",
+          "price": 400,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-platina\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-platina { to { stroke-dashoffset: -400; } }\n      .r_border-platina {\n        stroke: url(#gb_border-platina); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-platina 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-platina\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-arcane",
+          "name": "Borda Arcana",
+          "type": "border",
+          "price": 552,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-arcane\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/><stop offset=\"100%\" stop-color=\"#FF6B6B\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-arcane { to { stroke-dashoffset: -400; } }\n      .r_border-arcane {\n        stroke: url(#gb_border-arcane); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-arcane 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FFD23F66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-arcane\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-obsidian",
+          "name": "Borda Obsidiana",
+          "type": "border",
+          "price": 761,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-obsidian\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#9D4EDD\"/><stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-obsidian { to { stroke-dashoffset: -400; } }\n      .r_border-obsidian {\n        stroke: url(#gb_border-obsidian); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-obsidian 5s linear infinite;\n        filter: drop-shadow(0 0 6px #9D4EDD66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-obsidian\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-crystal",
+          "name": "Borda Cristal",
+          "type": "border",
+          "price": 1051,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-crystal\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-crystal { to { stroke-dashoffset: -400; } }\n      .r_border-crystal {\n        stroke: url(#gb_border-crystal); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-crystal 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-crystal\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-horizon",
+          "name": "Borda Horizonte",
+          "type": "border",
+          "price": 1450,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-horizon\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-horizon { to { stroke-dashoffset: -400; } }\n      .r_border-horizon {\n        stroke: url(#gb_border-horizon); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-horizon 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-horizon\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-royal",
+          "name": "Borda Real",
+          "type": "border",
+          "price": 2000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-royal\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#9D4EDD\"/><stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-royal { to { stroke-dashoffset: -400; } }\n      .r_border-royal {\n        stroke: url(#gb_border-royal); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-royal 5s linear infinite;\n        filter: drop-shadow(0 0 6px #9D4EDD66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-royal\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-phantom",
+          "name": "Borda Fantasma",
+          "type": "border",
+          "price": 2759,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-phantom\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#4ECDC4\"/><stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-phantom { to { stroke-dashoffset: -400; } }\n      .r_border-phantom {\n        stroke: url(#gb_border-phantom); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-phantom 5s linear infinite;\n        filter: drop-shadow(0 0 6px #4ECDC466);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-phantom\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-glitch",
+          "name": "Borda Glitch",
+          "type": "border",
+          "price": 3807,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-glitch\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-glitch { to { stroke-dashoffset: -400; } }\n      .r_border-glitch {\n        stroke: url(#gb_border-glitch); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-glitch 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-glitch\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-lava",
+          "name": "Borda Lava",
+          "type": "border",
+          "price": 5253,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-lava\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-lava { to { stroke-dashoffset: -400; } }\n      .r_border-lava {\n        stroke: url(#gb_border-lava); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-lava 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-lava\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-arctic",
+          "name": "Borda \u00c1rtica",
+          "type": "border",
+          "price": 7248,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-arctic\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-arctic { to { stroke-dashoffset: -400; } }\n      .r_border-arctic {\n        stroke: url(#gb_border-arctic); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-arctic 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-arctic\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-eclipse",
+          "name": "Borda Eclipse",
+          "type": "border",
+          "price": 10000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-eclipse\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#9D4EDD\"/><stop offset=\"100%\" stop-color=\"#4ECDC4\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-eclipse { to { stroke-dashoffset: -400; } }\n      .r_border-eclipse {\n        stroke: url(#gb_border-eclipse); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-eclipse 5s linear infinite;\n        filter: drop-shadow(0 0 6px #9D4EDD66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-eclipse\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-starlight",
+          "name": "Borda Estelar",
+          "type": "border",
+          "price": 13797,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-starlight\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/><stop offset=\"100%\" stop-color=\"#FF6B6B\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-starlight { to { stroke-dashoffset: -400; } }\n      .r_border-starlight {\n        stroke: url(#gb_border-starlight); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-starlight 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FFD23F66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-starlight\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-cosmos",
+          "name": "Borda Cosmos",
+          "type": "border",
+          "price": 19037,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-cosmos\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-cosmos { to { stroke-dashoffset: -400; } }\n      .r_border-cosmos {\n        stroke: url(#gb_border-cosmos); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-cosmos 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-cosmos\"/>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "border-eternal",
+          "name": "Borda Eterna",
+          "type": "border",
+          "price": 26265,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-eternal\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-eternal { to { stroke-dashoffset: -400; } }\n      .r_border-eternal {\n        stroke: url(#gb_border-eternal); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-eternal 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-eternal\"/>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "border-jade",
+          "name": "Borda Jade",
+          "type": "border",
+          "price": 36239,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-jade\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#4ECDC4\"/><stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-jade { to { stroke-dashoffset: -400; } }\n      .r_border-jade {\n        stroke: url(#gb_border-jade); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-jade 5s linear infinite;\n        filter: drop-shadow(0 0 6px #4ECDC466);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-jade\"/>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "border-amethyst",
+          "name": "Borda Ametista",
+          "type": "border",
+          "price": 50000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border-amethyst\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#4ECDC4\"/><stop offset=\"100%\" stop-color=\"#06FFA5\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border-amethyst { to { stroke-dashoffset: -400; } }\n      .r_border-amethyst {\n        stroke: url(#gb_border-amethyst); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border-amethyst 5s linear infinite;\n        filter: drop-shadow(0 0 6px #4ECDC466);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border-amethyst\"/>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "bg-aurora",
+          "name": "Fundo Aurora",
+          "type": "background",
+          "price": 90,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-aurora\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-aurora { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-aurora { animation: shimmer_bg-aurora 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-aurora { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-aurora)\" class=\"bg_bg-aurora\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-aurora\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-dusk",
+          "name": "Fundo Crep\u00fasculo",
+          "type": "background",
+          "price": 120,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-dusk\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-dusk { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-dusk { animation: shimmer_bg-dusk 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-dusk { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-dusk)\" class=\"bg_bg-dusk\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-dusk\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-matrix",
+          "name": "Fundo Matrix",
+          "type": "background",
+          "price": 161,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-matrix\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-matrix { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-matrix { animation: shimmer_bg-matrix 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-matrix { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-matrix)\" class=\"bg_bg-matrix\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-matrix\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-ocean",
+          "name": "Fundo Oceano",
+          "type": "background",
+          "price": 215,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-ocean\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-ocean { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-ocean { animation: shimmer_bg-ocean 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-ocean { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-ocean)\" class=\"bg_bg-ocean\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-ocean\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-sakura",
+          "name": "Fundo Sakura",
+          "type": "background",
+          "price": 287,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-sakura\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-sakura { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-sakura { animation: shimmer_bg-sakura 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-sakura { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-sakura)\" class=\"bg_bg-sakura\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-sakura\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-nebula",
+          "name": "Fundo N\u00e9bulas",
+          "type": "background",
+          "price": 384,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-nebula\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-nebula { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-nebula { animation: shimmer_bg-nebula 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-nebula { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-nebula)\" class=\"bg_bg-nebula\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-nebula\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-supernova",
+          "name": "Fundo Supernova",
+          "type": "background",
+          "price": 514,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-supernova\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-supernova { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-supernova { animation: shimmer_bg-supernova 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-supernova { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-supernova)\" class=\"bg_bg-supernova\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-supernova\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-eternum",
+          "name": "Fundo Eternum",
+          "type": "background",
+          "price": 687,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-eternum\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-eternum { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-eternum { animation: shimmer_bg-eternum 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-eternum { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-eternum)\" class=\"bg_bg-eternum\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-eternum\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-monolith",
+          "name": "Fundo Mon\u00f3lito",
+          "type": "background",
+          "price": 918,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-monolith\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-monolith { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-monolith { animation: shimmer_bg-monolith 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-monolith { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-monolith)\" class=\"bg_bg-monolith\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-monolith\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-glacier",
+          "name": "Fundo Geleira",
+          "type": "background",
+          "price": 1227,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-glacier\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-glacier { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-glacier { animation: shimmer_bg-glacier 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-glacier { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-glacier)\" class=\"bg_bg-glacier\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-glacier\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-desert",
+          "name": "Fundo Deserto",
+          "type": "background",
+          "price": 1641,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-desert\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-desert { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-desert { animation: shimmer_bg-desert 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-desert { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-desert)\" class=\"bg_bg-desert\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-desert\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-rainforest",
+          "name": "Fundo Floresta",
+          "type": "background",
+          "price": 2194,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-rainforest\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-rainforest { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-rainforest { animation: shimmer_bg-rainforest 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-rainforest { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-rainforest)\" class=\"bg_bg-rainforest\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-rainforest\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-cybergrid",
+          "name": "Fundo Cybergrid",
+          "type": "background",
+          "price": 2933,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-cybergrid\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-cybergrid { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-cybergrid { animation: shimmer_bg-cybergrid 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-cybergrid { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-cybergrid)\" class=\"bg_bg-cybergrid\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-cybergrid\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-vapor",
+          "name": "Fundo Vaporwave",
+          "type": "background",
+          "price": 3921,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-vapor\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-vapor { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-vapor { animation: shimmer_bg-vapor 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-vapor { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-vapor)\" class=\"bg_bg-vapor\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-vapor\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-midnight",
+          "name": "Fundo Meia-noite",
+          "type": "background",
+          "price": 5241,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-midnight\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-midnight { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-midnight { animation: shimmer_bg-midnight 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-midnight { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-midnight)\" class=\"bg_bg-midnight\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-midnight\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-sunrise",
+          "name": "Fundo Amanhecer",
+          "type": "background",
+          "price": 7007,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-sunrise\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-sunrise { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-sunrise { animation: shimmer_bg-sunrise 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-sunrise { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-sunrise)\" class=\"bg_bg-sunrise\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-sunrise\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-sunset",
+          "name": "Fundo P\u00f4r do Sol",
+          "type": "background",
+          "price": 9368,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-sunset\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-sunset { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-sunset { animation: shimmer_bg-sunset 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-sunset { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-sunset)\" class=\"bg_bg-sunset\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-sunset\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-galaxy",
+          "name": "Fundo Gal\u00e1xia",
+          "type": "background",
+          "price": 12523,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-galaxy\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-galaxy { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-galaxy { animation: shimmer_bg-galaxy 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-galaxy { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-galaxy)\" class=\"bg_bg-galaxy\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-galaxy\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-cyberpunk",
+          "name": "Fundo Cyberpunk",
+          "type": "background",
+          "price": 16742,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-cyberpunk\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-cyberpunk { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-cyberpunk { animation: shimmer_bg-cyberpunk 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-cyberpunk { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-cyberpunk)\" class=\"bg_bg-cyberpunk\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-cyberpunk\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-neoncity",
+          "name": "Fundo Neon City",
+          "type": "background",
+          "price": 22381,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-neoncity\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-neoncity { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-neoncity { animation: shimmer_bg-neoncity 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-neoncity { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-neoncity)\" class=\"bg_bg-neoncity\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-neoncity\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-forestnight",
+          "name": "Fundo Floresta \u00e0 Noite",
+          "type": "background",
+          "price": 29921,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-forestnight\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-forestnight { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-forestnight { animation: shimmer_bg-forestnight 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-forestnight { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-forestnight)\" class=\"bg_bg-forestnight\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-forestnight\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": ""
+          }
+        },
+        {
+          "id": "bg-holo",
+          "name": "Fundo Hologr\u00e1fico (Lend\u00e1rio)",
+          "type": "background",
+          "price": 40000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg-holo\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg-holo { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg-holo { animation: shimmer_bg-holo 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg-holo { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg-holo)\" class=\"bg_bg-holo\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg-holo\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "Raro"
+          }
+        },
+        {
+          "id": "badge_star",
+          "name": "Selo Estrela",
+          "type": "badge",
+          "price": 0,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge_star\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge_star { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge_star  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge_star { transform-origin: 60px 60px; animation: pulse_badge_star 2s infinite, glow_badge_star 2s infinite; }\n      .t_badge_star { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge_star\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge_star)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge_star\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "",
+            "symbol": "\u2b50",
+            "color": "#FFD700"
+          }
+        },
+        {
+          "id": "badge_gold",
+          "name": "Selo Ouro",
+          "type": "badge",
+          "price": 1500000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge_gold\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge_gold { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge_gold  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge_gold { transform-origin: 60px 60px; animation: pulse_badge_gold 2s infinite, glow_badge_gold 2s infinite; }\n      .t_badge_gold { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge_gold\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge_gold)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge_gold\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro",
+            "symbol": "\ud83e\udd47",
+            "color": "#FFD700"
+          }
+        },
+        {
+          "id": "badge_diamond",
+          "name": "Selo Diamante",
+          "type": "badge",
+          "price": 3000000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"96\" height=\"96\" viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"g_badge_diamond\">\n      <stop offset=\"0%\" stop-color=\"#FFD23F\"/>\n      <stop offset=\"100%\" stop-color=\"#FF8C42\"/>\n    </radialGradient>\n    <style>\n      @keyframes pulse_badge_diamond { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08);} }\n      @keyframes glow_badge_diamond  { 0%,100% { filter: drop-shadow(0 0 4px #FFD23F); } 50% { filter: drop-shadow(0 0 12px #FF8C42); } }\n      .p_badge_diamond { transform-origin: 60px 60px; animation: pulse_badge_diamond 2s infinite, glow_badge_diamond 2s infinite; }\n      .t_badge_diamond { font: 700 26px system-ui, sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; }\n    </style>\n  </defs>\n  <g class=\"p_badge_diamond\">\n    <circle cx=\"60\" cy=\"60\" r=\"38\" fill=\"url(#g_badge_diamond)\"/>\n    <circle cx=\"60\" cy=\"60\" r=\"40\" fill=\"none\" stroke=\"#ffffff33\" stroke-width=\"3\"/>\n    <text x=\"60\" y=\"60\" class=\"t_badge_diamond\">\ud83c\udfc5</text>\n  </g>\n</svg>",
+            "rarity": "Raro",
+            "symbol": "\ud83d\udc8e",
+            "color": "#B9F2FF"
+          }
+        },
+        {
+          "id": "border_neon",
+          "name": "Borda Neon",
+          "type": "border",
+          "price": 100000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border_neon\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border_neon { to { stroke-dashoffset: -400; } }\n      .r_border_neon {\n        stroke: url(#gb_border_neon); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border_neon 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border_neon\"/>\n</svg>",
+            "rarity": "",
+            "border": "3px solid #00FFFF",
+            "shadow": "0 0 15px #00FFFF"
+          }
+        },
+        {
+          "id": "border_prism",
+          "name": "Borda Prisma",
+          "type": "border",
+          "price": 1550000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border_prism\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#FF8C42\"/><stop offset=\"100%\" stop-color=\"#FFD23F\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border_prism { to { stroke-dashoffset: -400; } }\n      .r_border_prism {\n        stroke: url(#gb_border_prism); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border_prism 5s linear infinite;\n        filter: drop-shadow(0 0 6px #FF8C4266);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border_prism\"/>\n</svg>",
+            "rarity": "Raro",
+            "border": "4px solid",
+            "borderImage": "linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3) 1",
+            "shadow": "0 0 25px rgba(255,255,255,0.6)"
+          }
+        },
+        {
+          "id": "border_eternal",
+          "name": "Borda Eterna",
+          "type": "border",
+          "price": 3000000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"120\" height=\"96\" viewBox=\"0 0 160 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gb_border_eternal\" x1=\"0\" y1=\"0\" x2=\"160\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#00D4FF\"/><stop offset=\"100%\" stop-color=\"#9D4EDD\"/>\n    </linearGradient>\n    <style>\n      @keyframes rotate_border_eternal { to { stroke-dashoffset: -400; } }\n      .r_border_eternal {\n        stroke: url(#gb_border_eternal); stroke-width: 6; fill: none; stroke-linejoin: round;\n        stroke-dasharray: 24 10; animation: rotate_border_eternal 5s linear infinite;\n        filter: drop-shadow(0 0 6px #00D4FF66);\n      }\n    </style>\n  </defs>\n  <rect x=\"12\" y=\"12\" width=\"136\" height=\"96\" rx=\"14\" class=\"r_border_eternal\"/>\n</svg>",
+            "rarity": "Raro",
+            "border": "5px solid #FFD700",
+            "shadow": "0 0 30px rgba(255,215,0,0.9)",
+            "animation": "pulse 2s infinite"
+          }
+        },
+        {
+          "id": "bg_aurora",
+          "name": "Fundo Aurora",
+          "type": "background",
+          "price": 6750,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_aurora\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_aurora { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_aurora { animation: shimmer_bg_aurora 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_aurora { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_aurora)\" class=\"bg_bg_aurora\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_aurora\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#667eea 0%,#764ba2 100%)",
+            "animation": "none"
+          }
+        },
+        {
+          "id": "bg_twilight",
+          "name": "Fundo Crep\u00fasculo",
+          "type": "background",
+          "price": 9000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_twilight\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_twilight { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_twilight { animation: shimmer_bg_twilight 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_twilight { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_twilight)\" class=\"bg_bg_twilight\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_twilight\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#ff7e5f 0%,#feb47b 100%)",
+            "animation": "none"
+          }
+        },
+        {
+          "id": "bg_matrix",
+          "name": "Fundo Matrix",
+          "type": "background",
+          "price": 12000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_matrix\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_matrix { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_matrix { animation: shimmer_bg_matrix 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_matrix { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_matrix)\" class=\"bg_bg_matrix\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_matrix\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#0f0f0f 0%,#1a1a1a 100%)",
+            "animation": "matrix-rain 5s infinite"
+          }
+        },
+        {
+          "id": "bg_ocean",
+          "name": "Fundo Oceano",
+          "type": "background",
+          "price": 16000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_ocean\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_ocean { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_ocean { animation: shimmer_bg_ocean 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_ocean { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_ocean)\" class=\"bg_bg_ocean\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_ocean\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#2e3192 0%,#1bffff 100%)",
+            "animation": "wave 10s infinite"
+          }
+        },
+        {
+          "id": "bg_sakura",
+          "name": "Fundo Sakura",
+          "type": "background",
+          "price": 21500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_sakura\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_sakura { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_sakura { animation: shimmer_bg_sakura 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_sakura { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_sakura)\" class=\"bg_bg_sakura\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_sakura\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#ffecd2 0%,#fcb69f 100%)",
+            "animation": "sakura-fall 15s infinite"
+          }
+        },
+        {
+          "id": "bg_nebula",
+          "name": "Fundo N\u00e9bulas",
+          "type": "background",
+          "price": 28800,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_nebula\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_nebula { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_nebula { animation: shimmer_bg_nebula 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_nebula { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_nebula)\" class=\"bg_bg_nebula\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_nebula\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#4b0082 0%,#8a2be2 50%,#ff1493 100%)",
+            "animation": "nebula-drift 20s infinite"
+          }
+        },
+        {
+          "id": "bg_supernova",
+          "name": "Fundo Supernova",
+          "type": "background",
+          "price": 38500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_supernova\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_supernova { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_supernova { animation: shimmer_bg_supernova 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_supernova { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_supernova)\" class=\"bg_bg_supernova\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_supernova\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "radial-gradient(circle,#ff6b6b 0%,#4ecdc4 50%,#1a535c 100%)",
+            "animation": "supernova 8s infinite"
+          }
+        },
+        {
+          "id": "bg_eternum",
+          "name": "Fundo Eternum",
+          "type": "background",
+          "price": 51500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_eternum\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_eternum { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_eternum { animation: shimmer_bg_eternum 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_eternum { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_eternum)\" class=\"bg_bg_eternum\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_eternum\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#a8edea 0%,#fed6e3 100%)",
+            "animation": "ethereal 12s infinite"
+          }
+        },
+        {
+          "id": "bg_monolith",
+          "name": "Fundo Mon\u00f3lito",
+          "type": "background",
+          "price": 68800,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_monolith\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_monolith { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_monolith { animation: shimmer_bg_monolith 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_monolith { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_monolith)\" class=\"bg_bg_monolith\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_monolith\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#232526 0%,#414345 100%)",
+            "animation": "monolith-pulse 10s infinite"
+          }
+        },
+        {
+          "id": "bg_glacier",
+          "name": "Fundo Geleira",
+          "type": "background",
+          "price": 92000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_glacier\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_glacier { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_glacier { animation: shimmer_bg_glacier 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_glacier { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_glacier)\" class=\"bg_bg_glacier\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_glacier\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#e0eafc 0%,#cfdef3 100%)",
+            "animation": "glacier-shift 15s infinite"
+          }
+        },
+        {
+          "id": "bg_desert",
+          "name": "Fundo Deserto",
+          "type": "background",
+          "price": 123000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_desert\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_desert { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_desert { animation: shimmer_bg_desert 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_desert { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_desert)\" class=\"bg_bg_desert\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_desert\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#f2994a 0%,#f2c94c 100%)",
+            "animation": "desert-heat 18s infinite"
+          }
+        },
+        {
+          "id": "bg_forest",
+          "name": "Fundo Floresta",
+          "type": "background",
+          "price": 164500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_forest\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_forest { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_forest { animation: shimmer_bg_forest 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_forest { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_forest)\" class=\"bg_bg_forest\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_forest\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#134e5e 0%,#71b280 100%)",
+            "animation": "forest-breeze 20s infinite"
+          }
+        },
+        {
+          "id": "bg_cybergrid",
+          "name": "Fundo Cybergrid",
+          "type": "background",
+          "price": 220000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_cybergrid\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#7c3aed\"/><stop offset=\"100%\" stop-color=\"#06b6d4\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_cybergrid { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_cybergrid { animation: shimmer_bg_cybergrid 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_cybergrid { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_cybergrid)\" class=\"bg_bg_cybergrid\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_cybergrid\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#0f0c29 0%,#302b63 50%,#24243e 100%)",
+            "animation": "cyber-grid 5s infinite"
+          }
+        },
+        {
+          "id": "bg_vaporwave",
+          "name": "Fundo Vaporwave",
+          "type": "background",
+          "price": 294000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_vaporwave\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_vaporwave { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_vaporwave { animation: shimmer_bg_vaporwave 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_vaporwave { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_vaporwave)\" class=\"bg_bg_vaporwave\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_vaporwave\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#ff6e7f 0%,#bfe9ff 100%)",
+            "animation": "vaporwave 10s infinite"
+          }
+        },
+        {
+          "id": "bg_midnight",
+          "name": "Fundo Meia-noite",
+          "type": "background",
+          "price": 393000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_midnight\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_midnight { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_midnight { animation: shimmer_bg_midnight 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_midnight { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_midnight)\" class=\"bg_bg_midnight\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_midnight\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#000428 0%,#004e92 100%)",
+            "animation": "stars-twinkle 25s infinite"
+          }
+        },
+        {
+          "id": "bg_dawn",
+          "name": "Fundo Amanhecer",
+          "type": "background",
+          "price": 525500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_dawn\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_dawn { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_dawn { animation: shimmer_bg_dawn 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_dawn { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_dawn)\" class=\"bg_bg_dawn\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_dawn\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#ff9a56 0%,#ff6a88 50%,#ff99ac 100%)",
+            "animation": "dawn-rise 30s infinite"
+          }
+        },
+        {
+          "id": "bg_sunset",
+          "name": "Fundo P\u00f4r do Sol",
+          "type": "background",
+          "price": 702500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_sunset\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_sunset { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_sunset { animation: shimmer_bg_sunset 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_sunset { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_sunset)\" class=\"bg_bg_sunset\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_sunset\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "linear-gradient(135deg,#fa709a 0%,#fee140 100%)",
+            "animation": "sunset-fade 35s infinite"
+          }
+        },
+        {
+          "id": "bg_galaxy",
+          "name": "Fundo Gal\u00e1xia",
+          "type": "background",
+          "price": 939000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_galaxy\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#f59e0b\"/><stop offset=\"100%\" stop-color=\"#ef4444\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_galaxy { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_galaxy { animation: shimmer_bg_galaxy 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_galaxy { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_galaxy)\" class=\"bg_bg_galaxy\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_galaxy\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "",
+            "background": "radial-gradient(circle,#240b36 0%,#c31432 100%)",
+            "animation": "galaxy-spin 40s infinite"
+          }
+        },
+        {
+          "id": "bg_cyberpunk",
+          "name": "Fundo Cyberpunk",
+          "type": "background",
+          "price": 1255500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_cyberpunk\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#0ea5e9\"/><stop offset=\"100%\" stop-color=\"#22d3ee\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_cyberpunk { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_cyberpunk { animation: shimmer_bg_cyberpunk 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_cyberpunk { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_cyberpunk)\" class=\"bg_bg_cyberpunk\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_cyberpunk\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "Raro",
+            "background": "linear-gradient(135deg,#fc00ff 0%,#00dbde 100%)",
+            "animation": "cyberpunk-glitch 8s infinite"
+          }
+        },
+        {
+          "id": "bg_neon_city",
+          "name": "Fundo Neon City",
+          "type": "background",
+          "price": 1678500,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_neon_city\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_neon_city { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_neon_city { animation: shimmer_bg_neon_city 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_neon_city { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_neon_city)\" class=\"bg_bg_neon_city\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_neon_city\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "Raro",
+            "background": "linear-gradient(135deg,#d53369 0%,#daae51 100%)",
+            "animation": "neon-flicker 6s infinite"
+          }
+        },
+        {
+          "id": "bg_night_forest",
+          "name": "Fundo Floresta \u00e0 Noite",
+          "type": "background",
+          "price": 2244000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_night_forest\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#10b981\"/><stop offset=\"100%\" stop-color=\"#3b82f6\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_night_forest { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_night_forest { animation: shimmer_bg_night_forest 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_night_forest { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_night_forest)\" class=\"bg_bg_night_forest\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_night_forest\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "Raro",
+            "background": "linear-gradient(135deg,#0f2027 0%,#203a43 50%,#2c5364 100%)",
+            "animation": "moonlight-shimmer 45s infinite"
+          }
+        },
+        {
+          "id": "bg_holographic",
+          "name": "Fundo Hologr\u00e1fico",
+          "type": "background",
+          "price": 3000000,
+          "description": "",
+          "style_data": {
+            "svg": "<svg width=\"160\" height=\"96\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"gg_bg_holographic\" x1=\"0\" y1=\"0\" x2=\"200\" y2=\"120\">\n      <stop offset=\"0%\" stop-color=\"#ef4444\"/><stop offset=\"100%\" stop-color=\"#f59e0b\"/>\n    </linearGradient>\n    <style>\n      @keyframes shimmer_bg_holographic { 0% {opacity:1} 50% {opacity:.8} 100% {opacity:1} }\n      .bg_bg_holographic { animation: shimmer_bg_holographic 2.5s ease-in-out infinite; rx: 14px; }\n      .tx_bg_holographic { font: 600 14px system-ui, sans-serif; fill: #fff; opacity:.9 }\n    </style>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"184\" height=\"104\" fill=\"url(#gg_bg_holographic)\" class=\"bg_bg_holographic\"/>\n  <text x=\"100\" y=\"68\" text-anchor=\"middle\" class=\"tx_bg_holographic\">\ud83c\udfa8 Fundo</text>\n</svg>",
+            "rarity": "Raro",
+            "background": "linear-gradient(135deg,#667eea 0%,#764ba2 33%,#f093fb 66%,#f5576c 100%)",
+            "animation": "holographic-wave 10s infinite"
+          }
+        }
+      ],
+      "timestamp": "2025-10-14T14:24:36.611211"
+    },
+    {
+      "test_name": "Cosmetics Count",
+      "success": true,
+      "details": "Found 87 cosmetic items",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.611873"
+    },
+    {
+      "test_name": "Cosmetics Structure",
+      "success": true,
+      "details": "All required fields present",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.611897"
+    },
+    {
+      "test_name": "Cosmetics Types",
+      "success": true,
+      "details": "Found all types: {'background', 'badge', 'border'}",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.611922"
+    },
+    {
+      "test_name": "Rarity System",
+      "success": true,
+      "details": "Found rarities: {'', 'Raro'}",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.611939"
+    },
+    {
+      "test_name": "SVG Images",
+      "success": true,
+      "details": "Found 10 items with SVG data",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.611944"
+    },
+    {
+      "test_name": "Buy Cosmetic (Expected Insufficient Coins)",
+      "success": false,
+      "details": "Expected 400, got 200. Response: {\"message\":\"Item purchased successfully\"}",
+      "response_data": null,
+      "timestamp": "2025-10-14T14:24:36.654603"
+    }
+  ],
+  "timestamp": "2025-10-14T14:24:36.655285"
+}

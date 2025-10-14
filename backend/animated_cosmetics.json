@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "badge_1",
+    "type": "badge",
+    "name": "Selo Star Comum",
+    "description": "Badge Comum com animação pulse",
+    "price": 290,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "pulse",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-0\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FFA500;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-0\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-0)\" filter=\"url(#glow-0)\" class=\"badge-pulse\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⭐</text>\n</svg>",
+      "css": "\n.badge-pulse {\n  animation: badge-pulse-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-pulse-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(7deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_2",
+    "type": "badge",
+    "name": "Selo Diamond Incomum",
+    "description": "Badge Incomum com animação glow",
+    "price": 1338,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "glow",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-1\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#0080FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-1\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-1)\" filter=\"url(#glow-1)\" class=\"badge-glow\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💎</text>\n</svg>",
+      "css": "\n.badge-glow {\n  animation: badge-glow-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(2deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_3",
+    "type": "badge",
+    "name": "Selo Crown Raro",
+    "description": "Badge Raro com animação rotate",
+    "price": 4610,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "rotate",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B00FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-2\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-2)\" filter=\"url(#glow-2)\" class=\"badge-rotate\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">👑</text>\n</svg>",
+      "css": "\n.badge-rotate {\n  animation: badge-rotate-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-rotate-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(0deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_4",
+    "type": "badge",
+    "name": "Selo Trophy Comum",
+    "description": "Badge Comum com animação bounce",
+    "price": 496,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "bounce",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-3\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#008000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-3\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-3)\" filter=\"url(#glow-3)\" class=\"badge-bounce\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏆</text>\n</svg>",
+      "css": "\n.badge-bounce {\n  animation: badge-bounce-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-bounce-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-9deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_5",
+    "type": "badge",
+    "name": "Selo Medal Incomum",
+    "description": "Badge Incomum com animação shake",
+    "price": 1876,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "shake",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-4\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B0000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-4\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-4)\" filter=\"url(#glow-4)\" class=\"badge-shake\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏅</text>\n</svg>",
+      "css": "\n.badge-shake {\n  animation: badge-shake-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shake-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(7deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_6",
+    "type": "badge",
+    "name": "Selo Fire Raro",
+    "description": "Badge Raro com animação shimmer",
+    "price": 9780,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "shimmer",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-5\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFFFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#C0C0C0;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-5\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-5)\" filter=\"url(#glow-5)\" class=\"badge-shimmer\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🔥</text>\n</svg>",
+      "css": "\n.badge-shimmer {\n  animation: badge-shimmer-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shimmer-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_7",
+    "type": "badge",
+    "name": "Selo Lightning Comum",
+    "description": "Badge Comum com animação sparkle",
+    "price": 420,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "sparkle",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-6\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF69B4;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FF1493;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-6\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-6)\" filter=\"url(#glow-6)\" class=\"badge-sparkle\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⚡</text>\n</svg>",
+      "css": "\n.badge-sparkle {\n  animation: badge-sparkle-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-sparkle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-8deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_8",
+    "type": "badge",
+    "name": "Selo Gem Incomum",
+    "description": "Badge Incomum com animação wave",
+    "price": 1474,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "wave",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-7\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#20B2AA;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-7\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-7)\" filter=\"url(#glow-7)\" class=\"badge-wave\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💠</text>\n</svg>",
+      "css": "\n.badge-wave {\n  animation: badge-wave-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-wave-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(6deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_9",
+    "type": "badge",
+    "name": "Selo Heart Raro",
+    "description": "Badge Raro com animação float",
+    "price": 4129,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "float",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-8\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-8\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-8)\" filter=\"url(#glow-8)\" class=\"badge-float\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💖</text>\n</svg>",
+      "css": "\n.badge-float {\n  animation: badge-float-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-float-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(3deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_10",
+    "type": "badge",
+    "name": "Selo Sparkles Comum",
+    "description": "Badge Comum com animação spin",
+    "price": 431,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "spin",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-9\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8A2BE2;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-9\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-9)\" filter=\"url(#glow-9)\" class=\"badge-spin\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">✨</text>\n</svg>",
+      "css": "\n.badge-spin {\n  animation: badge-spin-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-spin-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(10deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_11",
+    "type": "badge",
+    "name": "Selo Star Incomum",
+    "description": "Badge Incomum com animação pulse",
+    "price": 1424,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "pulse",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-10\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FFA500;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-10\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-10)\" filter=\"url(#glow-10)\" class=\"badge-pulse\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⭐</text>\n</svg>",
+      "css": "\n.badge-pulse {\n  animation: badge-pulse-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-pulse-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_12",
+    "type": "badge",
+    "name": "Selo Diamond Raro",
+    "description": "Badge Raro com animação glow",
+    "price": 7475,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "glow",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-11\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#0080FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-11\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-11)\" filter=\"url(#glow-11)\" class=\"badge-glow\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💎</text>\n</svg>",
+      "css": "\n.badge-glow {\n  animation: badge-glow-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_13",
+    "type": "badge",
+    "name": "Selo Crown Comum",
+    "description": "Badge Comum com animação rotate",
+    "price": 374,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "rotate",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-12\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B00FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-12\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-12)\" filter=\"url(#glow-12)\" class=\"badge-rotate\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">👑</text>\n</svg>",
+      "css": "\n.badge-rotate {\n  animation: badge-rotate-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-rotate-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-4deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_14",
+    "type": "badge",
+    "name": "Selo Trophy Incomum",
+    "description": "Badge Incomum com animação bounce",
+    "price": 1823,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "bounce",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-13\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#008000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-13\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-13)\" filter=\"url(#glow-13)\" class=\"badge-bounce\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏆</text>\n</svg>",
+      "css": "\n.badge-bounce {\n  animation: badge-bounce-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-bounce-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-4deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_15",
+    "type": "badge",
+    "name": "Selo Medal Raro",
+    "description": "Badge Raro com animação shake",
+    "price": 6138,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "shake",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-14\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B0000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-14\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-14)\" filter=\"url(#glow-14)\" class=\"badge-shake\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏅</text>\n</svg>",
+      "css": "\n.badge-shake {\n  animation: badge-shake-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shake-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(7deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_16",
+    "type": "badge",
+    "name": "Selo Fire Comum",
+    "description": "Badge Comum com animação shimmer",
+    "price": 269,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "shimmer",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-15\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFFFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#C0C0C0;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-15\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-15)\" filter=\"url(#glow-15)\" class=\"badge-shimmer\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🔥</text>\n</svg>",
+      "css": "\n.badge-shimmer {\n  animation: badge-shimmer-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shimmer-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-4deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_17",
+    "type": "badge",
+    "name": "Selo Lightning Incomum",
+    "description": "Badge Incomum com animação sparkle",
+    "price": 1253,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "sparkle",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-16\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF69B4;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FF1493;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-16\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-16)\" filter=\"url(#glow-16)\" class=\"badge-sparkle\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⚡</text>\n</svg>",
+      "css": "\n.badge-sparkle {\n  animation: badge-sparkle-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-sparkle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(3deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_18",
+    "type": "badge",
+    "name": "Selo Gem Raro",
+    "description": "Badge Raro com animação wave",
+    "price": 4988,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "wave",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-17\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#20B2AA;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-17\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-17)\" filter=\"url(#glow-17)\" class=\"badge-wave\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💠</text>\n</svg>",
+      "css": "\n.badge-wave {\n  animation: badge-wave-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-wave-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_19",
+    "type": "badge",
+    "name": "Selo Heart Comum",
+    "description": "Badge Comum com animação float",
+    "price": 272,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "float",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-18\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-18\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-18)\" filter=\"url(#glow-18)\" class=\"badge-float\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💖</text>\n</svg>",
+      "css": "\n.badge-float {\n  animation: badge-float-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-float-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-6deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_20",
+    "type": "badge",
+    "name": "Selo Sparkles Incomum",
+    "description": "Badge Incomum com animação spin",
+    "price": 624,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "spin",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-19\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8A2BE2;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-19\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-19)\" filter=\"url(#glow-19)\" class=\"badge-spin\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">✨</text>\n</svg>",
+      "css": "\n.badge-spin {\n  animation: badge-spin-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-spin-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_21",
+    "type": "badge",
+    "name": "Selo Star Raro",
+    "description": "Badge Raro com animação pulse",
+    "price": 8077,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "pulse",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-20\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FFA500;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-20\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-20)\" filter=\"url(#glow-20)\" class=\"badge-pulse\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⭐</text>\n</svg>",
+      "css": "\n.badge-pulse {\n  animation: badge-pulse-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-pulse-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(2deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_22",
+    "type": "badge",
+    "name": "Selo Diamond Comum",
+    "description": "Badge Comum com animação glow",
+    "price": 175,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "glow",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-21\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#0080FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-21\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-21)\" filter=\"url(#glow-21)\" class=\"badge-glow\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💎</text>\n</svg>",
+      "css": "\n.badge-glow {\n  animation: badge-glow-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-7deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_23",
+    "type": "badge",
+    "name": "Selo Crown Incomum",
+    "description": "Badge Incomum com animação rotate",
+    "price": 666,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "rotate",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-22\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B00FF;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-22\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-22)\" filter=\"url(#glow-22)\" class=\"badge-rotate\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">👑</text>\n</svg>",
+      "css": "\n.badge-rotate {\n  animation: badge-rotate-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-rotate-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-10deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_24",
+    "type": "badge",
+    "name": "Selo Trophy Raro",
+    "description": "Badge Raro com animação bounce",
+    "price": 8107,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "bounce",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-23\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#008000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-23\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-23)\" filter=\"url(#glow-23)\" class=\"badge-bounce\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏆</text>\n</svg>",
+      "css": "\n.badge-bounce {\n  animation: badge-bounce-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-bounce-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(5deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_25",
+    "type": "badge",
+    "name": "Selo Medal Comum",
+    "description": "Badge Comum com animação shake",
+    "price": 220,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "shake",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-24\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8B0000;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-24\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-24)\" filter=\"url(#glow-24)\" class=\"badge-shake\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🏅</text>\n</svg>",
+      "css": "\n.badge-shake {\n  animation: badge-shake-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shake-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(4deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_26",
+    "type": "badge",
+    "name": "Selo Fire Incomum",
+    "description": "Badge Incomum com animação shimmer",
+    "price": 603,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "shimmer",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-25\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFFFFF;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#C0C0C0;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-25\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-25)\" filter=\"url(#glow-25)\" class=\"badge-shimmer\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">🔥</text>\n</svg>",
+      "css": "\n.badge-shimmer {\n  animation: badge-shimmer-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-shimmer-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(-9deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_27",
+    "type": "badge",
+    "name": "Selo Lightning Raro",
+    "description": "Badge Raro com animação sparkle",
+    "price": 7850,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "sparkle",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-26\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF69B4;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#FF1493;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-26\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-26)\" filter=\"url(#glow-26)\" class=\"badge-sparkle\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">⚡</text>\n</svg>",
+      "css": "\n.badge-sparkle {\n  animation: badge-sparkle-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-sparkle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(4deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_28",
+    "type": "badge",
+    "name": "Selo Gem Comum",
+    "description": "Badge Comum com animação wave",
+    "price": 256,
+    "style_data": {
+      "rarity": "Comum",
+      "animation": "wave",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-27\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#20B2AA;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-27\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-27)\" filter=\"url(#glow-27)\" class=\"badge-wave\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💠</text>\n</svg>",
+      "css": "\n.badge-wave {\n  animation: badge-wave-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-wave-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(7deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_29",
+    "type": "badge",
+    "name": "Selo Heart Incomum",
+    "description": "Badge Incomum com animação float",
+    "price": 745,
+    "style_data": {
+      "rarity": "Incomum",
+      "animation": "float",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-28\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-28\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-28)\" filter=\"url(#glow-28)\" class=\"badge-float\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">💖</text>\n</svg>",
+      "css": "\n.badge-float {\n  animation: badge-float-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-float-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(6deg); }\n}\n"
+    }
+  },
+  {
+    "id": "badge_30",
+    "type": "badge",
+    "name": "Selo Sparkles Raro",
+    "description": "Badge Raro com animação spin",
+    "price": 3997,
+    "style_data": {
+      "rarity": "Raro",
+      "animation": "spin",
+      "svg": "<svg width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <radialGradient id=\"badge-grad-29\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#8A2BE2;stop-opacity:1\" />\n    </radialGradient>\n    <filter id=\"glow-29\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <circle cx=\"40\" cy=\"40\" r=\"35\" fill=\"url(#badge-grad-29)\" filter=\"url(#glow-29)\" class=\"badge-spin\">\n    <animate attributeName=\"opacity\" values=\"1;0.7;1\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <text x=\"40\" y=\"48\" font-size=\"28\" text-anchor=\"middle\" fill=\"white\">✨</text>\n</svg>",
+      "css": "\n.badge-spin {\n  animation: badge-spin-anim 2s ease-in-out infinite;\n}\n\n@keyframes badge-spin-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); }\n  50% { transform: scale(1.1) rotate(1deg); }\n}\n"
+    }
+  },
+  {
+    "id": "border_1",
+    "type": "border",
+    "name": "Borda Solid Comum",
+    "description": "Borda Comum com efeito solid",
+    "price": 200,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "solid",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-0\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF00FF;#00FFFF;#FF00FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00FFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FFFF;#FF00FF;#00FFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-0\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-0)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-0)\" rx=\"15\" class=\"border-solid\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-solid {\n  animation: border-solid-anim 3s linear infinite;\n}\n\n@keyframes border-solid-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00FFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_2",
+    "type": "border",
+    "name": "Borda Dashed Incomum",
+    "description": "Borda Incomum com efeito dashed",
+    "price": 2917,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "dashed",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FF8C00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF8C00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF8C00;#FFD700;#FF8C00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-1\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-1)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-1)\" rx=\"15\" class=\"border-dashed\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dashed {\n  animation: border-dashed-anim 3s linear infinite;\n}\n\n@keyframes border-dashed-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF8C00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_3",
+    "type": "border",
+    "name": "Borda Dotted Raro",
+    "description": "Borda Raro com efeito dotted",
+    "price": 12866,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "dotted",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FF00;#32CD32;#00FF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#32CD32;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#32CD32;#00FF00;#32CD32\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-2\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-2)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-2)\" rx=\"15\" class=\"border-dotted\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dotted {\n  animation: border-dotted-anim 3s linear infinite;\n}\n\n@keyframes border-dotted-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #32CD32); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n}\n"
+    }
+  },
+  {
+    "id": "border_4",
+    "type": "border",
+    "name": "Borda Double Comum",
+    "description": "Borda Comum com efeito double",
+    "price": 826,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "double",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF1493;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF1493;#FF69B4;#FF1493\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF69B4;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF69B4;#FF1493;#FF69B4\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-3\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-3)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-3)\" rx=\"15\" class=\"border-double\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-double {\n  animation: border-double-anim 3s linear infinite;\n}\n\n@keyframes border-double-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF69B4); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n}\n"
+    }
+  },
+  {
+    "id": "border_5",
+    "type": "border",
+    "name": "Borda Gradient Incomum",
+    "description": "Borda Incomum com efeito gradient",
+    "price": 2348,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "gradient",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-4\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#1E90FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#1E90FF;#00BFFF;#1E90FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00BFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00BFFF;#1E90FF;#00BFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-4\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-4)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-4)\" rx=\"15\" class=\"border-gradient\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-gradient {\n  animation: border-gradient-anim 3s linear infinite;\n}\n\n@keyframes border-gradient-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00BFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_6",
+    "type": "border",
+    "name": "Borda Glow Raro",
+    "description": "Borda Raro com efeito glow",
+    "price": 18136,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "glow",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-5\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF4500;#FF6347;#FF4500\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF6347;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF6347;#FF4500;#FF6347\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-5\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-5)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-5)\" rx=\"15\" class=\"border-glow\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-glow {\n  animation: border-glow-anim 3s linear infinite;\n}\n\n@keyframes border-glow-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF6347); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n}\n"
+    }
+  },
+  {
+    "id": "border_7",
+    "type": "border",
+    "name": "Borda Neon Comum",
+    "description": "Borda Comum com efeito neon",
+    "price": 927,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "neon",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-6\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#9370DB;#BA55D3;#9370DB\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#BA55D3;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#BA55D3;#9370DB;#BA55D3\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-6\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-6)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-6)\" rx=\"15\" class=\"border-neon\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-neon {\n  animation: border-neon-anim 3s linear infinite;\n}\n\n@keyframes border-neon-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #BA55D3); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n}\n"
+    }
+  },
+  {
+    "id": "border_8",
+    "type": "border",
+    "name": "Borda Wave Incomum",
+    "description": "Borda Incomum com efeito wave",
+    "price": 3861,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "wave",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-7\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00CED1;#48D1CC;#00CED1\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#48D1CC;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#48D1CC;#00CED1;#48D1CC\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-7\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-7)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-7)\" rx=\"15\" class=\"border-wave\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-wave {\n  animation: border-wave-anim 3s linear infinite;\n}\n\n@keyframes border-wave-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #48D1CC); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n}\n"
+    }
+  },
+  {
+    "id": "border_9",
+    "type": "border",
+    "name": "Borda Pulse Raro",
+    "description": "Borda Raro com efeito pulse",
+    "price": 7935,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "pulse",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-8\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FFFF00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FFFF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFFF00;#FFD700;#FFFF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-8\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-8)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-8)\" rx=\"15\" class=\"border-pulse\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-pulse {\n  animation: border-pulse-anim 3s linear infinite;\n}\n\n@keyframes border-pulse-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FFFF00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_10",
+    "type": "border",
+    "name": "Borda Shimmer Comum",
+    "description": "Borda Comum com efeito shimmer",
+    "price": 264,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "shimmer",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-9\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF0000;#DC143C;#FF0000\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#DC143C;#FF0000;#DC143C\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-9\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-9)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-9)\" rx=\"15\" class=\"border-shimmer\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-shimmer {\n  animation: border-shimmer-anim 3s linear infinite;\n}\n\n@keyframes border-shimmer-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #DC143C); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n}\n"
+    }
+  },
+  {
+    "id": "border_11",
+    "type": "border",
+    "name": "Borda Solid Incomum",
+    "description": "Borda Incomum com efeito solid",
+    "price": 3383,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "solid",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-10\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF00FF;#00FFFF;#FF00FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00FFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FFFF;#FF00FF;#00FFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-10\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-10)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-10)\" rx=\"15\" class=\"border-solid\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-solid {\n  animation: border-solid-anim 3s linear infinite;\n}\n\n@keyframes border-solid-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00FFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_12",
+    "type": "border",
+    "name": "Borda Dashed Raro",
+    "description": "Borda Raro com efeito dashed",
+    "price": 7323,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "dashed",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-11\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FF8C00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF8C00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF8C00;#FFD700;#FF8C00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-11\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-11)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-11)\" rx=\"15\" class=\"border-dashed\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dashed {\n  animation: border-dashed-anim 3s linear infinite;\n}\n\n@keyframes border-dashed-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF8C00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_13",
+    "type": "border",
+    "name": "Borda Dotted Comum",
+    "description": "Borda Comum com efeito dotted",
+    "price": 685,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "dotted",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-12\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FF00;#32CD32;#00FF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#32CD32;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#32CD32;#00FF00;#32CD32\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-12\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-12)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-12)\" rx=\"15\" class=\"border-dotted\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dotted {\n  animation: border-dotted-anim 3s linear infinite;\n}\n\n@keyframes border-dotted-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #32CD32); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n}\n"
+    }
+  },
+  {
+    "id": "border_14",
+    "type": "border",
+    "name": "Borda Double Incomum",
+    "description": "Borda Incomum com efeito double",
+    "price": 1842,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "double",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-13\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF1493;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF1493;#FF69B4;#FF1493\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF69B4;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF69B4;#FF1493;#FF69B4\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-13\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-13)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-13)\" rx=\"15\" class=\"border-double\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-double {\n  animation: border-double-anim 3s linear infinite;\n}\n\n@keyframes border-double-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF69B4); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n}\n"
+    }
+  },
+  {
+    "id": "border_15",
+    "type": "border",
+    "name": "Borda Gradient Raro",
+    "description": "Borda Raro com efeito gradient",
+    "price": 6968,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "gradient",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-14\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#1E90FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#1E90FF;#00BFFF;#1E90FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00BFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00BFFF;#1E90FF;#00BFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-14\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-14)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-14)\" rx=\"15\" class=\"border-gradient\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-gradient {\n  animation: border-gradient-anim 3s linear infinite;\n}\n\n@keyframes border-gradient-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00BFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_16",
+    "type": "border",
+    "name": "Borda Glow Comum",
+    "description": "Borda Comum com efeito glow",
+    "price": 590,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "glow",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-15\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF4500;#FF6347;#FF4500\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF6347;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF6347;#FF4500;#FF6347\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-15\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-15)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-15)\" rx=\"15\" class=\"border-glow\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-glow {\n  animation: border-glow-anim 3s linear infinite;\n}\n\n@keyframes border-glow-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF6347); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n}\n"
+    }
+  },
+  {
+    "id": "border_17",
+    "type": "border",
+    "name": "Borda Neon Incomum",
+    "description": "Borda Incomum com efeito neon",
+    "price": 3166,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "neon",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-16\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#9370DB;#BA55D3;#9370DB\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#BA55D3;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#BA55D3;#9370DB;#BA55D3\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-16\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-16)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-16)\" rx=\"15\" class=\"border-neon\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-neon {\n  animation: border-neon-anim 3s linear infinite;\n}\n\n@keyframes border-neon-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #BA55D3); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n}\n"
+    }
+  },
+  {
+    "id": "border_18",
+    "type": "border",
+    "name": "Borda Wave Raro",
+    "description": "Borda Raro com efeito wave",
+    "price": 8887,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "wave",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-17\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00CED1;#48D1CC;#00CED1\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#48D1CC;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#48D1CC;#00CED1;#48D1CC\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-17\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-17)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-17)\" rx=\"15\" class=\"border-wave\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-wave {\n  animation: border-wave-anim 3s linear infinite;\n}\n\n@keyframes border-wave-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #48D1CC); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n}\n"
+    }
+  },
+  {
+    "id": "border_19",
+    "type": "border",
+    "name": "Borda Pulse Comum",
+    "description": "Borda Comum com efeito pulse",
+    "price": 670,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "pulse",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-18\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FFFF00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FFFF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFFF00;#FFD700;#FFFF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-18\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-18)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-18)\" rx=\"15\" class=\"border-pulse\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-pulse {\n  animation: border-pulse-anim 3s linear infinite;\n}\n\n@keyframes border-pulse-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FFFF00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_20",
+    "type": "border",
+    "name": "Borda Shimmer Incomum",
+    "description": "Borda Incomum com efeito shimmer",
+    "price": 2656,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "shimmer",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-19\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF0000;#DC143C;#FF0000\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#DC143C;#FF0000;#DC143C\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-19\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-19)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-19)\" rx=\"15\" class=\"border-shimmer\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-shimmer {\n  animation: border-shimmer-anim 3s linear infinite;\n}\n\n@keyframes border-shimmer-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #DC143C); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n}\n"
+    }
+  },
+  {
+    "id": "border_21",
+    "type": "border",
+    "name": "Borda Solid Raro",
+    "description": "Borda Raro com efeito solid",
+    "price": 19103,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "solid",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-20\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF00FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF00FF;#00FFFF;#FF00FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00FFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FFFF;#FF00FF;#00FFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-20\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-20)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-20)\" rx=\"15\" class=\"border-solid\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-solid {\n  animation: border-solid-anim 3s linear infinite;\n}\n\n@keyframes border-solid-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00FFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF00FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_22",
+    "type": "border",
+    "name": "Borda Dashed Comum",
+    "description": "Borda Comum com efeito dashed",
+    "price": 251,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "dashed",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-21\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FF8C00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF8C00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF8C00;#FFD700;#FF8C00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-21\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-21)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-21)\" rx=\"15\" class=\"border-dashed\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dashed {\n  animation: border-dashed-anim 3s linear infinite;\n}\n\n@keyframes border-dashed-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF8C00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_23",
+    "type": "border",
+    "name": "Borda Dotted Incomum",
+    "description": "Borda Incomum com efeito dotted",
+    "price": 4855,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "dotted",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-22\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00FF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00FF00;#32CD32;#00FF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#32CD32;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#32CD32;#00FF00;#32CD32\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-22\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-22)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-22)\" rx=\"15\" class=\"border-dotted\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-dotted {\n  animation: border-dotted-anim 3s linear infinite;\n}\n\n@keyframes border-dotted-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #32CD32); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00FF00); }\n}\n"
+    }
+  },
+  {
+    "id": "border_24",
+    "type": "border",
+    "name": "Borda Double Raro",
+    "description": "Borda Raro com efeito double",
+    "price": 7842,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "double",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-23\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF1493;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF1493;#FF69B4;#FF1493\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF69B4;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF69B4;#FF1493;#FF69B4\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-23\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-23)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-23)\" rx=\"15\" class=\"border-double\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-double {\n  animation: border-double-anim 3s linear infinite;\n}\n\n@keyframes border-double-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF69B4); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF1493); }\n}\n"
+    }
+  },
+  {
+    "id": "border_25",
+    "type": "border",
+    "name": "Borda Gradient Comum",
+    "description": "Borda Comum com efeito gradient",
+    "price": 882,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "gradient",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-24\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#1E90FF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#1E90FF;#00BFFF;#1E90FF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#00BFFF;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00BFFF;#1E90FF;#00BFFF\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-24\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-24)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-24)\" rx=\"15\" class=\"border-gradient\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-gradient {\n  animation: border-gradient-anim 3s linear infinite;\n}\n\n@keyframes border-gradient-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #00BFFF); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #1E90FF); }\n}\n"
+    }
+  },
+  {
+    "id": "border_26",
+    "type": "border",
+    "name": "Borda Glow Incomum",
+    "description": "Borda Incomum com efeito glow",
+    "price": 3357,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "glow",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-25\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF4500;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF4500;#FF6347;#FF4500\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FF6347;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF6347;#FF4500;#FF6347\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-25\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-25)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-25)\" rx=\"15\" class=\"border-glow\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-glow {\n  animation: border-glow-anim 3s linear infinite;\n}\n\n@keyframes border-glow-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FF6347); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF4500); }\n}\n"
+    }
+  },
+  {
+    "id": "border_27",
+    "type": "border",
+    "name": "Borda Neon Raro",
+    "description": "Borda Raro com efeito neon",
+    "price": 6125,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "neon",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-26\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#9370DB;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#9370DB;#BA55D3;#9370DB\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#BA55D3;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#BA55D3;#9370DB;#BA55D3\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-26\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-26)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-26)\" rx=\"15\" class=\"border-neon\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-neon {\n  animation: border-neon-anim 3s linear infinite;\n}\n\n@keyframes border-neon-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #BA55D3); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #9370DB); }\n}\n"
+    }
+  },
+  {
+    "id": "border_28",
+    "type": "border",
+    "name": "Borda Wave Comum",
+    "description": "Borda Comum com efeito wave",
+    "price": 480,
+    "style_data": {
+      "rarity": "Comum",
+      "pattern": "wave",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-27\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#00CED1;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#00CED1;#48D1CC;#00CED1\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#48D1CC;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#48D1CC;#00CED1;#48D1CC\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-27\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-27)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-27)\" rx=\"15\" class=\"border-wave\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-wave {\n  animation: border-wave-anim 3s linear infinite;\n}\n\n@keyframes border-wave-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #48D1CC); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #00CED1); }\n}\n"
+    }
+  },
+  {
+    "id": "border_29",
+    "type": "border",
+    "name": "Borda Pulse Incomum",
+    "description": "Borda Incomum com efeito pulse",
+    "price": 2244,
+    "style_data": {
+      "rarity": "Incomum",
+      "pattern": "pulse",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-28\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FFD700;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFD700;#FFFF00;#FFD700\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#FFFF00;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FFFF00;#FFD700;#FFFF00\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-28\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-28)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-28)\" rx=\"15\" class=\"border-pulse\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-pulse {\n  animation: border-pulse-anim 3s linear infinite;\n}\n\n@keyframes border-pulse-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #FFFF00); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FFD700); }\n}\n"
+    }
+  },
+  {
+    "id": "border_30",
+    "type": "border",
+    "name": "Borda Shimmer Raro",
+    "description": "Borda Raro com efeito shimmer",
+    "price": 9045,
+    "style_data": {
+      "rarity": "Raro",
+      "pattern": "shimmer",
+      "svg": "<svg width=\"120\" height=\"120\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"border-grad-29\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#FF0000;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#FF0000;#DC143C;#FF0000\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#DC143C;stop-opacity:1\">\n        <animate attributeName=\"stop-color\" values=\"#DC143C;#FF0000;#DC143C\" dur=\"3s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <filter id=\"border-glow-29\">\n      <feGaussianBlur stdDeviation=\"4\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <rect x=\"5\" y=\"5\" width=\"110\" height=\"110\" fill=\"none\" \n        stroke=\"url(#border-grad-29)\" stroke-width=\"6\" \n        filter=\"url(#border-glow-29)\" rx=\"15\" class=\"border-shimmer\">\n    <animate attributeName=\"stroke-width\" values=\"6;8;6\" dur=\"2s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.border-shimmer {\n  animation: border-shimmer-anim 3s linear infinite;\n}\n\n@keyframes border-shimmer-anim {\n  0% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n  50% { stroke-dashoffset: 50; filter: drop-shadow(0 0 15px #DC143C); }\n  100% { stroke-dashoffset: 0; filter: drop-shadow(0 0 5px #FF0000); }\n}\n"
+    }
+  },
+  {
+    "id": "background_1",
+    "type": "background",
+    "name": "Fundo Gradient Flow Comum",
+    "description": "Fundo Comum com efeito gradient-flow",
+    "price": 1485,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "gradient-flow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-0\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#764ba2;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#764ba2;#667eea;#764ba2\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-0\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-0)\" class=\"background-gradient-flow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-0)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-gradient-flow {\n  animation: bg-gradient-flow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-gradient-flow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_2",
+    "type": "background",
+    "name": "Fundo Wave Motion Incomum",
+    "description": "Fundo Incomum com efeito wave-motion",
+    "price": 6622,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "wave-motion",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#f5576c;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#f5576c;#f093fb;#f5576c\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-1\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-1)\" class=\"background-wave-motion\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-1)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-wave-motion {\n  animation: bg-wave-motion-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-wave-motion-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_3",
+    "type": "background",
+    "name": "Fundo Pulse Glow Raro",
+    "description": "Fundo Raro com efeito pulse-glow",
+    "price": 26503,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "pulse-glow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#00f2fe;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#00f2fe;#4facfe;#00f2fe\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-2)\" class=\"background-pulse-glow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-2)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-pulse-glow {\n  animation: bg-pulse-glow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-pulse-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_4",
+    "type": "background",
+    "name": "Fundo Shimmer Shift Comum",
+    "description": "Fundo Comum com efeito shimmer-shift",
+    "price": 1329,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "shimmer-shift",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#38f9d7;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#38f9d7;#43e97b;#38f9d7\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-3\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-3)\" class=\"background-shimmer-shift\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-3)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-shimmer-shift {\n  animation: bg-shimmer-shift-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-shimmer-shift-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_5",
+    "type": "background",
+    "name": "Fundo Color Cycle Incomum",
+    "description": "Fundo Incomum com efeito color-cycle",
+    "price": 4963,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "color-cycle",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-4\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fee140;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fee140;#fa709a;#fee140\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-4\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-4)\" class=\"background-color-cycle\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-4)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-color-cycle {\n  animation: bg-color-cycle-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-color-cycle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_6",
+    "type": "background",
+    "name": "Fundo Aurora Raro",
+    "description": "Fundo Raro com efeito aurora",
+    "price": 34965,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "aurora",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-5\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#330867;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#330867;#30cfd0;#330867\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-5\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-5)\" class=\"background-aurora\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-5)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-aurora {\n  animation: bg-aurora-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-aurora-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_7",
+    "type": "background",
+    "name": "Fundo Nebula Comum",
+    "description": "Fundo Comum com efeito nebula",
+    "price": 763,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "nebula",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-6\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fed6e3;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fed6e3;#a8edea;#fed6e3\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-6\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-6)\" class=\"background-nebula\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-6)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-nebula {\n  animation: bg-nebula-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-nebula-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_8",
+    "type": "background",
+    "name": "Fundo Cosmic Incomum",
+    "description": "Fundo Incomum com efeito cosmic",
+    "price": 4044,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "cosmic",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-7\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#ff6a88;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#ff6a88;#ff9a56;#ff6a88\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-7\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-7)\" class=\"background-cosmic\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-7)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-cosmic {\n  animation: bg-cosmic-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-cosmic-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_9",
+    "type": "background",
+    "name": "Fundo Sunset Raro",
+    "description": "Fundo Raro com efeito sunset",
+    "price": 19366,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "sunset",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-8\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fcb69f;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fcb69f;#ffecd2;#fcb69f\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-8\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-8)\" class=\"background-sunset\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-8)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-sunset {\n  animation: bg-sunset-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-sunset-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_10",
+    "type": "background",
+    "name": "Fundo Ocean Comum",
+    "description": "Fundo Comum com efeito ocean",
+    "price": 932,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "ocean",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-9\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#bfe9ff;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#bfe9ff;#ff6e7f;#bfe9ff\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-9\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-9)\" class=\"background-ocean\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-9)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-ocean {\n  animation: bg-ocean-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-ocean-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_11",
+    "type": "background",
+    "name": "Fundo Gradient Flow Incomum",
+    "description": "Fundo Incomum com efeito gradient-flow",
+    "price": 4170,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "gradient-flow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-10\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#764ba2;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#764ba2;#667eea;#764ba2\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-10\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-10)\" class=\"background-gradient-flow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-10)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-gradient-flow {\n  animation: bg-gradient-flow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-gradient-flow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_12",
+    "type": "background",
+    "name": "Fundo Wave Motion Raro",
+    "description": "Fundo Raro com efeito wave-motion",
+    "price": 29587,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "wave-motion",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-11\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#f5576c;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#f5576c;#f093fb;#f5576c\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-11\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-11)\" class=\"background-wave-motion\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-11)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-wave-motion {\n  animation: bg-wave-motion-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-wave-motion-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_13",
+    "type": "background",
+    "name": "Fundo Pulse Glow Comum",
+    "description": "Fundo Comum com efeito pulse-glow",
+    "price": 554,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "pulse-glow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-12\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#00f2fe;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#00f2fe;#4facfe;#00f2fe\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-12\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-12)\" class=\"background-pulse-glow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-12)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-pulse-glow {\n  animation: bg-pulse-glow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-pulse-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_14",
+    "type": "background",
+    "name": "Fundo Shimmer Shift Incomum",
+    "description": "Fundo Incomum com efeito shimmer-shift",
+    "price": 7860,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "shimmer-shift",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-13\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#38f9d7;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#38f9d7;#43e97b;#38f9d7\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-13\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-13)\" class=\"background-shimmer-shift\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-13)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-shimmer-shift {\n  animation: bg-shimmer-shift-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-shimmer-shift-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_15",
+    "type": "background",
+    "name": "Fundo Color Cycle Raro",
+    "description": "Fundo Raro com efeito color-cycle",
+    "price": 45402,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "color-cycle",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-14\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fee140;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fee140;#fa709a;#fee140\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-14\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-14)\" class=\"background-color-cycle\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-14)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-color-cycle {\n  animation: bg-color-cycle-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-color-cycle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_16",
+    "type": "background",
+    "name": "Fundo Aurora Comum",
+    "description": "Fundo Comum com efeito aurora",
+    "price": 1380,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "aurora",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-15\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#330867;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#330867;#30cfd0;#330867\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-15\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-15)\" class=\"background-aurora\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-15)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-aurora {\n  animation: bg-aurora-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-aurora-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_17",
+    "type": "background",
+    "name": "Fundo Nebula Incomum",
+    "description": "Fundo Incomum com efeito nebula",
+    "price": 2504,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "nebula",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-16\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fed6e3;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fed6e3;#a8edea;#fed6e3\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-16\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-16)\" class=\"background-nebula\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-16)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-nebula {\n  animation: bg-nebula-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-nebula-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_18",
+    "type": "background",
+    "name": "Fundo Cosmic Raro",
+    "description": "Fundo Raro com efeito cosmic",
+    "price": 45144,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "cosmic",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-17\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#ff6a88;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#ff6a88;#ff9a56;#ff6a88\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-17\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-17)\" class=\"background-cosmic\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-17)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-cosmic {\n  animation: bg-cosmic-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-cosmic-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_19",
+    "type": "background",
+    "name": "Fundo Sunset Comum",
+    "description": "Fundo Comum com efeito sunset",
+    "price": 1423,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "sunset",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-18\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fcb69f;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fcb69f;#ffecd2;#fcb69f\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-18\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-18)\" class=\"background-sunset\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-18)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-sunset {\n  animation: bg-sunset-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-sunset-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_20",
+    "type": "background",
+    "name": "Fundo Ocean Incomum",
+    "description": "Fundo Incomum com efeito ocean",
+    "price": 3533,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "ocean",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-19\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#bfe9ff;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#bfe9ff;#ff6e7f;#bfe9ff\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-19\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-19)\" class=\"background-ocean\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-19)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-ocean {\n  animation: bg-ocean-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-ocean-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_21",
+    "type": "background",
+    "name": "Fundo Gradient Flow Raro",
+    "description": "Fundo Raro com efeito gradient-flow",
+    "price": 11348,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "gradient-flow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-20\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#764ba2;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#764ba2;#667eea;#764ba2\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#667eea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-20\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-20)\" class=\"background-gradient-flow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-20)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-gradient-flow {\n  animation: bg-gradient-flow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-gradient-flow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_22",
+    "type": "background",
+    "name": "Fundo Wave Motion Comum",
+    "description": "Fundo Comum com efeito wave-motion",
+    "price": 773,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "wave-motion",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-21\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#f5576c;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#f5576c;#f093fb;#f5576c\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#f093fb;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-21\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-21)\" class=\"background-wave-motion\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-21)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-wave-motion {\n  animation: bg-wave-motion-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-wave-motion-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_23",
+    "type": "background",
+    "name": "Fundo Pulse Glow Incomum",
+    "description": "Fundo Incomum com efeito pulse-glow",
+    "price": 4942,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "pulse-glow",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-22\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#00f2fe;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#00f2fe;#4facfe;#00f2fe\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#4facfe;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-22\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-22)\" class=\"background-pulse-glow\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-22)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-pulse-glow {\n  animation: bg-pulse-glow-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-pulse-glow-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_24",
+    "type": "background",
+    "name": "Fundo Shimmer Shift Raro",
+    "description": "Fundo Raro com efeito shimmer-shift",
+    "price": 16748,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "shimmer-shift",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-23\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#38f9d7;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#38f9d7;#43e97b;#38f9d7\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#43e97b;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-23\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-23)\" class=\"background-shimmer-shift\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-23)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-shimmer-shift {\n  animation: bg-shimmer-shift-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-shimmer-shift-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_25",
+    "type": "background",
+    "name": "Fundo Color Cycle Comum",
+    "description": "Fundo Comum com efeito color-cycle",
+    "price": 1463,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "color-cycle",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-24\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fee140;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fee140;#fa709a;#fee140\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#fa709a;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-24\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-24)\" class=\"background-color-cycle\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-24)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-color-cycle {\n  animation: bg-color-cycle-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-color-cycle-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_26",
+    "type": "background",
+    "name": "Fundo Aurora Incomum",
+    "description": "Fundo Incomum com efeito aurora",
+    "price": 7466,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "aurora",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-25\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#330867;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#330867;#30cfd0;#330867\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#30cfd0;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-25\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-25)\" class=\"background-aurora\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-25)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-aurora {\n  animation: bg-aurora-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-aurora-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_27",
+    "type": "background",
+    "name": "Fundo Nebula Raro",
+    "description": "Fundo Raro com efeito nebula",
+    "price": 20988,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "nebula",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-26\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fed6e3;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fed6e3;#a8edea;#fed6e3\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#a8edea;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-26\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-26)\" class=\"background-nebula\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-26)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-nebula {\n  animation: bg-nebula-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-nebula-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_28",
+    "type": "background",
+    "name": "Fundo Cosmic Comum",
+    "description": "Fundo Comum com efeito cosmic",
+    "price": 1830,
+    "style_data": {
+      "rarity": "Comum",
+      "effect": "cosmic",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-27\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#ff6a88;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#ff6a88;#ff9a56;#ff6a88\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff9a56;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-27\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-27)\" class=\"background-cosmic\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-27)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-cosmic {\n  animation: bg-cosmic-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-cosmic-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_29",
+    "type": "background",
+    "name": "Fundo Sunset Incomum",
+    "description": "Fundo Incomum com efeito sunset",
+    "price": 3056,
+    "style_data": {
+      "rarity": "Incomum",
+      "effect": "sunset",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-28\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#fcb69f;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#fcb69f;#ffecd2;#fcb69f\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ffecd2;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-28\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-28)\" class=\"background-sunset\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-28)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-sunset {\n  animation: bg-sunset-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-sunset-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  },
+  {
+    "id": "background_30",
+    "type": "background",
+    "name": "Fundo Ocean Raro",
+    "description": "Fundo Raro com efeito ocean",
+    "price": 49276,
+    "style_data": {
+      "rarity": "Raro",
+      "effect": "ocean",
+      "svg": "<svg width=\"400\" height=\"300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg-grad-29\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"0;0.5;0\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"50%\" style=\"stop-color:#bfe9ff;stop-opacity:0.8\">\n        <animate attributeName=\"stop-color\" values=\"#bfe9ff;#ff6e7f;#bfe9ff\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n      <stop offset=\"100%\" style=\"stop-color:#ff6e7f;stop-opacity:1\">\n        <animate attributeName=\"offset\" values=\"1;0.5;1\" dur=\"5s\" repeatCount=\"indefinite\"/>\n      </stop>\n    </linearGradient>\n    <radialGradient id=\"bg-overlay-29\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" style=\"stop-color:white;stop-opacity:0.2\"/>\n      <stop offset=\"100%\" style=\"stop-color:transparent;stop-opacity:0\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-grad-29)\" class=\"background-ocean\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bg-overlay-29)\">\n    <animate attributeName=\"opacity\" values=\"0.3;0.7;0.3\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </rect>\n</svg>",
+      "css": "\n.background-ocean {\n  animation: bg-ocean-anim 5s ease-in-out infinite;\n}\n\n@keyframes bg-ocean-anim {\n  0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }\n  25% { transform: scale(1.05) rotate(1deg); opacity: 0.95; }\n  50% { transform: scale(1.02) rotate(-1deg); opacity: 0.98; }\n  75% { transform: scale(1.05) rotate(0.5deg); opacity: 0.96; }\n}\n"
+    }
+  }
+]

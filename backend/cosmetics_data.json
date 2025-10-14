@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "badge_1",
+    "name": "Selo Iniciante",
+    "type": "badge",
+    "price": 0,
+    "description": "Símbolo de iniciante - Tier 1/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 1,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg1\">\n      <stop offset=\"0%\" stop-color=\"hsl(12, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(42, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg1)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_2",
+    "name": "Selo Aprendiz",
+    "type": "badge",
+    "price": 10000,
+    "description": "Símbolo de aprendiz - Tier 2/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 2,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg2\">\n      <stop offset=\"0%\" stop-color=\"hsl(24, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(54, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg2)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"7\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_3",
+    "name": "Selo Estudante",
+    "type": "badge",
+    "price": 12259,
+    "description": "Símbolo de estudante - Tier 3/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 3,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg3\">\n      <stop offset=\"0%\" stop-color=\"hsl(36, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(66, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg3)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_4",
+    "name": "Selo Dedicado",
+    "type": "badge",
+    "price": 15029,
+    "description": "Símbolo de dedicado - Tier 4/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 4,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg4\">\n      <stop offset=\"0%\" stop-color=\"hsl(48, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(78, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg4)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"9\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_5",
+    "name": "Selo Aplicado",
+    "type": "badge",
+    "price": 18424,
+    "description": "Símbolo de aplicado - Tier 5/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 5,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg5\">\n      <stop offset=\"0%\" stop-color=\"hsl(60, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(90, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg5)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_6",
+    "name": "Selo Focado",
+    "type": "badge",
+    "price": 22587,
+    "description": "Símbolo de focado - Tier 6/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 6,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg6\">\n      <stop offset=\"0%\" stop-color=\"hsl(72, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(102, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg6)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"11\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_7",
+    "name": "Selo Disciplinado",
+    "type": "badge",
+    "price": 27691,
+    "description": "Símbolo de disciplinado - Tier 7/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 7,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg7\">\n      <stop offset=\"0%\" stop-color=\"hsl(84, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(114, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg7)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"12\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_8",
+    "name": "Selo Persistente",
+    "type": "badge",
+    "price": 33947,
+    "description": "Símbolo de persistente - Tier 8/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 8,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg8\">\n      <stop offset=\"0%\" stop-color=\"hsl(96, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(126, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg8)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"13\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_9",
+    "name": "Selo Determinado",
+    "type": "badge",
+    "price": 41617,
+    "description": "Símbolo de determinado - Tier 9/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 9,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg9\">\n      <stop offset=\"0%\" stop-color=\"hsl(108, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(138, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg9)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"14\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_10",
+    "name": "Selo Resiliente",
+    "type": "badge",
+    "price": 51020,
+    "description": "Símbolo de resiliente - Tier 10/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 10,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"bg10\">\n      <stop offset=\"0%\" stop-color=\"hsl(120, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(150, 70%, 60%)\"/>\n    </radialGradient>\n  </defs>\n  <polygon points=\"50,10 61,35 88,35 67,52 77,77 50,60 23,77 33,52 12,35 39,35\" \n           fill=\"url(#bg10)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.3\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_11",
+    "name": "Selo Sábio",
+    "type": "badge",
+    "price": 62548,
+    "description": "Símbolo de sábio - Tier 11/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 11,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg11\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(132, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(162, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg11)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">11</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_12",
+    "name": "Selo Erudito",
+    "type": "badge",
+    "price": 76680,
+    "description": "Símbolo de erudito - Tier 12/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 12,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg12\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(144, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(174, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg12)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">12</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_13",
+    "name": "Selo Mestre",
+    "type": "badge",
+    "price": 94005,
+    "description": "Símbolo de mestre - Tier 13/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 13,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg13\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(156, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(186, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg13)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">13</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_14",
+    "name": "Selo Expert",
+    "type": "badge",
+    "price": 115245,
+    "description": "Símbolo de expert - Tier 14/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 14,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg14\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(168, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(198, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg14)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">14</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_15",
+    "name": "Selo Virtuoso",
+    "type": "badge",
+    "price": 141283,
+    "description": "Símbolo de virtuoso - Tier 15/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 15,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg15\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(180, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(210, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg15)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">15</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_16",
+    "name": "Selo Gênio",
+    "type": "badge",
+    "price": 173205,
+    "description": "Símbolo de gênio - Tier 16/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 16,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg16\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(192, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(222, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg16)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">16</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_17",
+    "name": "Selo Prodígio",
+    "type": "badge",
+    "price": 212338,
+    "description": "Símbolo de prodígio - Tier 17/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 17,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg17\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(204, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(234, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg17)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">17</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_18",
+    "name": "Selo Fenômeno",
+    "type": "badge",
+    "price": 260314,
+    "description": "Símbolo de fenômeno - Tier 18/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 18,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg18\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(216, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(246, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg18)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">18</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_19",
+    "name": "Selo Lenda",
+    "type": "badge",
+    "price": 319129,
+    "description": "Símbolo de lenda - Tier 19/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 19,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg19\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(228, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(258, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg19)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">19</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_20",
+    "name": "Selo Titã",
+    "type": "badge",
+    "price": 391232,
+    "description": "Símbolo de titã - Tier 20/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 20,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"lg20\" x1=\"0%\" y1=\"0%\" x2=\"0%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(240, 70%, 50%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(270, 70%, 60%)\"/>\n    </linearGradient>\n  </defs>\n  <path d=\"M50,10 L80,25 L80,55 Q80,80 50,90 Q20,80 20,55 L20,25 Z\" \n        fill=\"url(#lg20)\" stroke=\"gold\" stroke-width=\"3\"/>\n  <text x=\"50\" y=\"55\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"white\">20</text>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_21",
+    "name": "Selo Imortal",
+    "type": "badge",
+    "price": 479627,
+    "description": "Símbolo de imortal - Tier 21/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 21,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg21\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(252, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow21\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg21)\" filter=\"url(#glow21)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_22",
+    "name": "Selo Divino",
+    "type": "badge",
+    "price": 587993,
+    "description": "Símbolo de divino - Tier 22/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 22,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg22\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(264, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow22\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg22)\" filter=\"url(#glow22)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_23",
+    "name": "Selo Celestial",
+    "type": "badge",
+    "price": 720843,
+    "description": "Símbolo de celestial - Tier 23/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 23,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg23\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(276, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow23\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg23)\" filter=\"url(#glow23)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_24",
+    "name": "Selo Transcendente",
+    "type": "badge",
+    "price": 883709,
+    "description": "Símbolo de transcendente - Tier 24/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 24,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg24\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(288, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow24\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg24)\" filter=\"url(#glow24)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_25",
+    "name": "Selo Supremo",
+    "type": "badge",
+    "price": 1083373,
+    "description": "Símbolo de supremo - Tier 25/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 25,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg25\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(300, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow25\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg25)\" filter=\"url(#glow25)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_26",
+    "name": "Selo Absoluto",
+    "type": "badge",
+    "price": 1328148,
+    "description": "Símbolo de absoluto - Tier 26/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 26,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg26\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(312, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow26\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg26)\" filter=\"url(#glow26)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_27",
+    "name": "Selo Perfeito",
+    "type": "badge",
+    "price": 1628228,
+    "description": "Símbolo de perfeito - Tier 27/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 27,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg27\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(324, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow27\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg27)\" filter=\"url(#glow27)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_28",
+    "name": "Selo Infinito",
+    "type": "badge",
+    "price": 1996107,
+    "description": "Símbolo de infinito - Tier 28/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 28,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg28\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(336, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow28\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg28)\" filter=\"url(#glow28)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_29",
+    "name": "Selo Eterno",
+    "type": "badge",
+    "price": 2447105,
+    "description": "Símbolo de eterno - Tier 29/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 29,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg29\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(348, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow29\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg29)\" filter=\"url(#glow29)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "badge_30",
+    "name": "Selo Onisciente",
+    "type": "badge",
+    "price": 3000000,
+    "description": "Símbolo de onisciente - Tier 30/30",
+    "style_data": {
+      "symbol": "🏅",
+      "tier": 30,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <radialGradient id=\"rg30\">\n      <stop offset=\"0%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(0, 70%, 50%)\"/>\n    </radialGradient>\n    <filter id=\"glow30\">\n      <feGaussianBlur stdDeviation=\"3\" result=\"coloredBlur\"/>\n      <feMerge>\n        <feMergeNode in=\"coloredBlur\"/>\n        <feMergeNode in=\"SourceGraphic\"/>\n      </feMerge>\n    </filter>\n  </defs>\n  <polygon points=\"50,15 55,30 70,25 65,40 80,45 65,50 70,65 55,60 50,75 45,60 30,65 35,50 20,45 35,40 30,25 45,30\" \n           fill=\"url(#rg30)\" filter=\"url(#glow30)\" stroke=\"white\" stroke-width=\"2\"/>\n  <circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_1",
+    "name": "Borda Simples",
+    "type": "border",
+    "price": 50000,
+    "description": "Moldura simples - Tier 1/30",
+    "style_data": {
+      "tier": 1,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(12, 70%, 50%)\" stroke-width=\"2.3\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_2",
+    "name": "Borda Elegante",
+    "type": "border",
+    "price": 57581,
+    "description": "Moldura elegante - Tier 2/30",
+    "style_data": {
+      "tier": 2,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(24, 70%, 50%)\" stroke-width=\"2.6\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_3",
+    "name": "Borda Sutil",
+    "type": "border",
+    "price": 66313,
+    "description": "Moldura sutil - Tier 3/30",
+    "style_data": {
+      "tier": 3,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(36, 70%, 50%)\" stroke-width=\"2.9\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_4",
+    "name": "Borda Refinada",
+    "type": "border",
+    "price": 76368,
+    "description": "Moldura refinada - Tier 4/30",
+    "style_data": {
+      "tier": 4,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(48, 70%, 50%)\" stroke-width=\"3.2\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_5",
+    "name": "Borda Delicada",
+    "type": "border",
+    "price": 87949,
+    "description": "Moldura delicada - Tier 5/30",
+    "style_data": {
+      "tier": 5,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(60, 70%, 50%)\" stroke-width=\"3.5\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_6",
+    "name": "Borda Nobre",
+    "type": "border",
+    "price": 101285,
+    "description": "Moldura nobre - Tier 6/30",
+    "style_data": {
+      "tier": 6,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(72, 70%, 50%)\" stroke-width=\"3.8\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_7",
+    "name": "Borda Sofisticada",
+    "type": "border",
+    "price": 116644,
+    "description": "Moldura sofisticada - Tier 7/30",
+    "style_data": {
+      "tier": 7,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(84, 70%, 50%)\" stroke-width=\"4.1\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_8",
+    "name": "Borda Clássica",
+    "type": "border",
+    "price": 134331,
+    "description": "Moldura clássica - Tier 8/30",
+    "style_data": {
+      "tier": 8,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(96, 70%, 50%)\" stroke-width=\"4.4\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_9",
+    "name": "Borda Imperial",
+    "type": "border",
+    "price": 154701,
+    "description": "Moldura imperial - Tier 9/30",
+    "style_data": {
+      "tier": 9,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(108, 70%, 50%)\" stroke-width=\"4.699999999999999\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_10",
+    "name": "Borda Real",
+    "type": "border",
+    "price": 178159,
+    "description": "Moldura real - Tier 10/30",
+    "style_data": {
+      "tier": 10,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" \n        stroke=\"hsl(120, 70%, 50%)\" stroke-width=\"5.0\" rx=\"5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_11",
+    "name": "Borda Majestosa",
+    "type": "border",
+    "price": 205175,
+    "description": "Moldura majestosa - Tier 11/30",
+    "style_data": {
+      "tier": 11,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(132, 70%, 50%)\" stroke-width=\"5.3\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_12",
+    "name": "Borda Grandiosa",
+    "type": "border",
+    "price": 236287,
+    "description": "Moldura grandiosa - Tier 12/30",
+    "style_data": {
+      "tier": 12,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(144, 70%, 50%)\" stroke-width=\"5.6\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_13",
+    "name": "Borda Esplêndida",
+    "type": "border",
+    "price": 272117,
+    "description": "Moldura esplêndida - Tier 13/30",
+    "style_data": {
+      "tier": 13,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(156, 70%, 50%)\" stroke-width=\"5.9\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_14",
+    "name": "Borda Radiante",
+    "type": "border",
+    "price": 313380,
+    "description": "Moldura radiante - Tier 14/30",
+    "style_data": {
+      "tier": 14,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(168, 70%, 50%)\" stroke-width=\"6.2\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_15",
+    "name": "Borda Brilhante",
+    "type": "border",
+    "price": 360900,
+    "description": "Moldura brilhante - Tier 15/30",
+    "style_data": {
+      "tier": 15,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(180, 70%, 50%)\" stroke-width=\"6.5\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_16",
+    "name": "Borda Luminosa",
+    "type": "border",
+    "price": 415626,
+    "description": "Moldura luminosa - Tier 16/30",
+    "style_data": {
+      "tier": 16,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(192, 70%, 50%)\" stroke-width=\"6.8\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_17",
+    "name": "Borda Reluzente",
+    "type": "border",
+    "price": 478650,
+    "description": "Moldura reluzente - Tier 17/30",
+    "style_data": {
+      "tier": 17,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(204, 70%, 50%)\" stroke-width=\"7.1\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_18",
+    "name": "Borda Cintilante",
+    "type": "border",
+    "price": 551232,
+    "description": "Moldura cintilante - Tier 18/30",
+    "style_data": {
+      "tier": 18,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(216, 70%, 50%)\" stroke-width=\"7.3999999999999995\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_19",
+    "name": "Borda Espetacular",
+    "type": "border",
+    "price": 634819,
+    "description": "Moldura espetacular - Tier 19/30",
+    "style_data": {
+      "tier": 19,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(228, 70%, 50%)\" stroke-width=\"7.7\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_20",
+    "name": "Borda Magnífica",
+    "type": "border",
+    "price": 731081,
+    "description": "Moldura magnífica - Tier 20/30",
+    "style_data": {
+      "tier": 20,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" fill=\"none\" \n        stroke=\"hsl(240, 70%, 50%)\" stroke-width=\"8.0\" rx=\"8\"/>\n  <rect x=\"8\" y=\"8\" width=\"84\" height=\"84\" fill=\"none\" \n        stroke=\"white\" stroke-width=\"1\" rx=\"5\" opacity=\"0.5\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_21",
+    "name": "Borda Divina",
+    "type": "border",
+    "price": 841940,
+    "description": "Moldura divina - Tier 21/30",
+    "style_data": {
+      "tier": 21,
+      "glow": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad21\">\n      <stop offset=\"0%\" stop-color=\"hsl(252, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(252, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad21)\" stroke-width=\"8.3\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_22",
+    "name": "Borda Celestial",
+    "type": "border",
+    "price": 969609,
+    "description": "Moldura celestial - Tier 22/30",
+    "style_data": {
+      "tier": 22,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad22\">\n      <stop offset=\"0%\" stop-color=\"hsl(264, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(264, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad22)\" stroke-width=\"8.6\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_23",
+    "name": "Borda Angelical",
+    "type": "border",
+    "price": 1116637,
+    "description": "Moldura angelical - Tier 23/30",
+    "style_data": {
+      "tier": 23,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad23\">\n      <stop offset=\"0%\" stop-color=\"hsl(276, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(276, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad23)\" stroke-width=\"8.899999999999999\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_24",
+    "name": "Borda Sagrada",
+    "type": "border",
+    "price": 1285961,
+    "description": "Moldura sagrada - Tier 24/30",
+    "style_data": {
+      "tier": 24,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad24\">\n      <stop offset=\"0%\" stop-color=\"hsl(288, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(288, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad24)\" stroke-width=\"9.2\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_25",
+    "name": "Borda Mística",
+    "type": "border",
+    "price": 1480960,
+    "description": "Moldura mística - Tier 25/30",
+    "style_data": {
+      "tier": 25,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad25\">\n      <stop offset=\"0%\" stop-color=\"hsl(300, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(300, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad25)\" stroke-width=\"9.5\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_26",
+    "name": "Borda Arcana",
+    "type": "border",
+    "price": 1705528,
+    "description": "Moldura arcana - Tier 26/30",
+    "style_data": {
+      "tier": 26,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad26\">\n      <stop offset=\"0%\" stop-color=\"hsl(312, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(312, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad26)\" stroke-width=\"9.8\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_27",
+    "name": "Borda Transcendente",
+    "type": "border",
+    "price": 1964149,
+    "description": "Moldura transcendente - Tier 27/30",
+    "style_data": {
+      "tier": 27,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad27\">\n      <stop offset=\"0%\" stop-color=\"hsl(324, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(324, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad27)\" stroke-width=\"10.1\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_28",
+    "name": "Borda Suprema",
+    "type": "border",
+    "price": 2261987,
+    "description": "Moldura suprema - Tier 28/30",
+    "style_data": {
+      "tier": 28,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad28\">\n      <stop offset=\"0%\" stop-color=\"hsl(336, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(336, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad28)\" stroke-width=\"10.4\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_29",
+    "name": "Borda Absoluta",
+    "type": "border",
+    "price": 2604987,
+    "description": "Moldura absoluta - Tier 29/30",
+    "style_data": {
+      "tier": 29,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad29\">\n      <stop offset=\"0%\" stop-color=\"hsl(348, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(348, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad29)\" stroke-width=\"10.7\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "border_30",
+    "name": "Borda Eterna",
+    "type": "border",
+    "price": 3000000,
+    "description": "Moldura eterna - Tier 30/30",
+    "style_data": {
+      "tier": 30,
+      "glow": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\">\n  <defs>\n    <linearGradient id=\"borderGrad30\">\n      <stop offset=\"0%\" stop-color=\"hsl(0, 70%, 50%)\"/>\n      <stop offset=\"50%\" stop-color=\"gold\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(0, 70%, 50%)\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" fill=\"none\" \n        stroke=\"url(#borderGrad30)\" stroke-width=\"11.0\" rx=\"10\"/>\n  <circle cx=\"10\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"10\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"10\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n  <circle cx=\"90\" cy=\"90\" r=\"5\" fill=\"gold\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_1",
+    "name": "Fundo Aurora",
+    "type": "background",
+    "price": 5000,
+    "description": "Paisagem aurora - Tier 1/30",
+    "style_data": {
+      "tier": 1,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(12, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(72, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad1)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_2",
+    "name": "Fundo Crepúsculo",
+    "type": "background",
+    "price": 6234,
+    "description": "Paisagem crepúsculo - Tier 2/30",
+    "style_data": {
+      "tier": 2,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(24, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(84, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad2)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_3",
+    "name": "Fundo Alvorada",
+    "type": "background",
+    "price": 7772,
+    "description": "Paisagem alvorada - Tier 3/30",
+    "style_data": {
+      "tier": 3,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(36, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(96, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad3)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_4",
+    "name": "Fundo Entardecer",
+    "type": "background",
+    "price": 9690,
+    "description": "Paisagem entardecer - Tier 4/30",
+    "style_data": {
+      "tier": 4,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad4\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(48, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(108, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad4)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_5",
+    "name": "Fundo Manhã",
+    "type": "background",
+    "price": 12082,
+    "description": "Paisagem manhã - Tier 5/30",
+    "style_data": {
+      "tier": 5,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad5\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(60, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(120, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad5)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_6",
+    "name": "Fundo Tarde",
+    "type": "background",
+    "price": 15064,
+    "description": "Paisagem tarde - Tier 6/30",
+    "style_data": {
+      "tier": 6,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad6\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(72, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(132, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad6)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_7",
+    "name": "Fundo Noite",
+    "type": "background",
+    "price": 18782,
+    "description": "Paisagem noite - Tier 7/30",
+    "style_data": {
+      "tier": 7,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad7\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(84, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(144, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad7)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_8",
+    "name": "Fundo Meia-Noite",
+    "type": "background",
+    "price": 23418,
+    "description": "Paisagem meia-noite - Tier 8/30",
+    "style_data": {
+      "tier": 8,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad8\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(96, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(156, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad8)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_9",
+    "name": "Fundo Oceano",
+    "type": "background",
+    "price": 29198,
+    "description": "Paisagem oceano - Tier 9/30",
+    "style_data": {
+      "tier": 9,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad9\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(108, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(168, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad9)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_10",
+    "name": "Fundo Deserto",
+    "type": "background",
+    "price": 36404,
+    "description": "Paisagem deserto - Tier 10/30",
+    "style_data": {
+      "tier": 10,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad10\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(120, 60%, 30%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(180, 60%, 20%)\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad10)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_11",
+    "name": "Fundo Floresta",
+    "type": "background",
+    "price": 45389,
+    "description": "Paisagem floresta - Tier 11/30",
+    "style_data": {
+      "tier": 11,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad11\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(132, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(192, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern11\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad11)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern11)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_12",
+    "name": "Fundo Montanha",
+    "type": "background",
+    "price": 56591,
+    "description": "Paisagem montanha - Tier 12/30",
+    "style_data": {
+      "tier": 12,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad12\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(144, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(204, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern12\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad12)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern12)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_13",
+    "name": "Fundo Vale",
+    "type": "background",
+    "price": 70558,
+    "description": "Paisagem vale - Tier 13/30",
+    "style_data": {
+      "tier": 13,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad13\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(156, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(216, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern13\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad13)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern13)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_14",
+    "name": "Fundo Pradaria",
+    "type": "background",
+    "price": 87972,
+    "description": "Paisagem pradaria - Tier 14/30",
+    "style_data": {
+      "tier": 14,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad14\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(168, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(228, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern14\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad14)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern14)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_15",
+    "name": "Fundo Tundra",
+    "type": "background",
+    "price": 109684,
+    "description": "Paisagem tundra - Tier 15/30",
+    "style_data": {
+      "tier": 15,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad15\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(180, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(240, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern15\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad15)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern15)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_16",
+    "name": "Fundo Savana",
+    "type": "background",
+    "price": 136755,
+    "description": "Paisagem savana - Tier 16/30",
+    "style_data": {
+      "tier": 16,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad16\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(192, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(252, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern16\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad16)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern16)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_17",
+    "name": "Fundo Selva",
+    "type": "background",
+    "price": 170507,
+    "description": "Paisagem selva - Tier 17/30",
+    "style_data": {
+      "tier": 17,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad17\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(204, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(264, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern17\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad17)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern17)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_18",
+    "name": "Fundo Pântano",
+    "type": "background",
+    "price": 212589,
+    "description": "Paisagem pântano - Tier 18/30",
+    "style_data": {
+      "tier": 18,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad18\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(216, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(276, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern18\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad18)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern18)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_19",
+    "name": "Fundo Nebulosa",
+    "type": "background",
+    "price": 265057,
+    "description": "Paisagem nebulosa - Tier 19/30",
+    "style_data": {
+      "tier": 19,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad19\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(228, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(288, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern19\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad19)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern19)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_20",
+    "name": "Fundo Galáxia",
+    "type": "background",
+    "price": 330474,
+    "description": "Paisagem galáxia - Tier 20/30",
+    "style_data": {
+      "tier": 20,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <linearGradient id=\"bgGrad20\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" stop-color=\"hsl(240, 70%, 35%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(300, 70%, 25%)\"/>\n    </linearGradient>\n    <pattern id=\"pattern20\" x=\"0\" y=\"0\" width=\"50\" height=\"50\" patternUnits=\"userSpaceOnUse\">\n      <circle cx=\"25\" cy=\"25\" r=\"2\" fill=\"white\" opacity=\"0.1\"/>\n    </pattern>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgGrad20)\"/>\n  <rect width=\"400\" height=\"300\" fill=\"url(#pattern20)\"/>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_21",
+    "name": "Fundo Cosmos",
+    "type": "background",
+    "price": 412037,
+    "description": "Paisagem cosmos - Tier 21/30",
+    "style_data": {
+      "tier": 21,
+      "animated": false,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad21\">\n      <stop offset=\"0%\" stop-color=\"hsl(252, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(312, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad21)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(252, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(312, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_22",
+    "name": "Fundo Quasar",
+    "type": "background",
+    "price": 513729,
+    "description": "Paisagem quasar - Tier 22/30",
+    "style_data": {
+      "tier": 22,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad22\">\n      <stop offset=\"0%\" stop-color=\"hsl(264, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(324, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad22)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(264, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(324, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_23",
+    "name": "Fundo Supernova",
+    "type": "background",
+    "price": 640520,
+    "description": "Paisagem supernova - Tier 23/30",
+    "style_data": {
+      "tier": 23,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad23\">\n      <stop offset=\"0%\" stop-color=\"hsl(276, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(336, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad23)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(276, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(336, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_24",
+    "name": "Fundo Buraco Negro",
+    "type": "background",
+    "price": 798603,
+    "description": "Paisagem buraco negro - Tier 24/30",
+    "style_data": {
+      "tier": 24,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad24\">\n      <stop offset=\"0%\" stop-color=\"hsl(288, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(348, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad24)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(288, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(348, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_25",
+    "name": "Fundo Dimensão",
+    "type": "background",
+    "price": 995702,
+    "description": "Paisagem dimensão - Tier 25/30",
+    "style_data": {
+      "tier": 25,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad25\">\n      <stop offset=\"0%\" stop-color=\"hsl(300, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(0, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad25)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(300, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(0, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_26",
+    "name": "Fundo Éter",
+    "type": "background",
+    "price": 1241446,
+    "description": "Paisagem éter - Tier 26/30",
+    "style_data": {
+      "tier": 26,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad26\">\n      <stop offset=\"0%\" stop-color=\"hsl(312, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(12, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad26)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(312, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(12, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_27",
+    "name": "Fundo Vazio",
+    "type": "background",
+    "price": 1547840,
+    "description": "Paisagem vazio - Tier 27/30",
+    "style_data": {
+      "tier": 27,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad27\">\n      <stop offset=\"0%\" stop-color=\"hsl(324, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(24, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad27)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(324, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(24, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_28",
+    "name": "Fundo Infinito",
+    "type": "background",
+    "price": 1929854,
+    "description": "Paisagem infinito - Tier 28/30",
+    "style_data": {
+      "tier": 28,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad28\">\n      <stop offset=\"0%\" stop-color=\"hsl(336, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(36, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad28)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(336, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(36, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_29",
+    "name": "Fundo Eternidade",
+    "type": "background",
+    "price": 2406151,
+    "description": "Paisagem eternidade - Tier 29/30",
+    "style_data": {
+      "tier": 29,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad29\">\n      <stop offset=\"0%\" stop-color=\"hsl(348, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(48, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad29)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(348, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(48, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  },
+  {
+    "id": "bg_30",
+    "name": "Fundo Omniverso",
+    "type": "background",
+    "price": 3000000,
+    "description": "Paisagem omniverso - Tier 30/30",
+    "style_data": {
+      "tier": 30,
+      "animated": true,
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\">\n  <defs>\n    <radialGradient id=\"bgRad30\">\n      <stop offset=\"0%\" stop-color=\"hsl(0, 80%, 40%)\"/>\n      <stop offset=\"100%\" stop-color=\"hsl(60, 80%, 20%)\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"300\" fill=\"url(#bgRad30)\"/>\n  <circle cx=\"100\" cy=\"100\" r=\"80\" fill=\"hsl(0, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"80\" to=\"100\" dur=\"3s\" repeatCount=\"indefinite\"/>\n  </circle>\n  <circle cx=\"300\" cy=\"200\" r=\"60\" fill=\"hsl(60, 70%, 50%)\" opacity=\"0.2\">\n    <animate attributeName=\"r\" from=\"60\" to=\"80\" dur=\"4s\" repeatCount=\"indefinite\"/>\n  </circle>\n</svg>"
+    }
+  }
+]
